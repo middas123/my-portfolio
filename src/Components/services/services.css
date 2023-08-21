@@ -21,6 +21,12 @@
     background-color: #ccc;
     margin: 20px 0;
   }
+  /* services.css */
+.services-divider {
+  width: 1px;
+  background-color: #ccc; /* Set your preferred color here */
+  margin: 0 20px; /* Adjust the margin as needed */
+}
 
   
   .projects {
