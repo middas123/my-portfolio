@@ -1,0 +1,105 @@
+/* Base styles */
+.jumbotron {
+  margin: 30px;
+  background-color: grey;
+  color: #fff;
+  border-radius: 30px;
+  height: 70vh;
+}
+
+.text-container {
+  right: 150px;
+  position: absolute;
+}
+
+.profile-image-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 100px;
+  float: left;
+}
+
+.profile-image {
+  width: 300px;
+  height: 350px;
+  border-radius: 10%;
+  flex-basis: 100%;
+  float: left;
+  margin-top: 55px;
+}
+
+.jumbotron .lead {
+  text-align: auto;
+}
+
+/* Styling for the connect container */
+.connect {
+  text-align: center;
+  margin-top: 420px; /* Adjust margin as needed */
+  margin-right: 5px;
+}
+
+/* Styling for the connect button */
+.connect-button a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.connect-button a:hover {
+  background-color: #d1630a;
+}
+
+.btn-primary {
+  background-color: #333403;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #d1630a;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .jumbotron {
+    height: auto;
+    padding: 20px; /* Add padding for better spacing */
+  }
+
+  .text-container {
+    position: relative;
+    right: 0;
+    text-align: center;
+    margin-top: 20px; /* Adjust spacing */
+  }
+
+  .profile-image-container {
+    position: relative;
+    margin: 20px auto;
+    float: none; /* Remove float */
+  }
+
+  .profile-image {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto; /* Center the image */
+    display: block;
+  }
+}
+
+
+
+
