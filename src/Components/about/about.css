@@ -67,6 +67,7 @@
     float: right;
   }
   
+  
   @media (max-width: 768px) {
     .card_row {
       flex-direction: column;

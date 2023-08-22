@@ -3,38 +3,73 @@ import "./Certificates.css";
 
 const Certificates = () => {
   return (
-    <div className="certificates-wrapper">
+    <div className="certificates-wrapper" id='certificates'>
       <div className="certificates-heading">
         <h2>Certificates</h2>
+        <h />
         <div className="vertical-line"></div>
       </div>
       <div className="card-columns">
         <div className="card">
-          <img src="..." className="card-img-top" alt="Certificate 1" />
-          <div className="card-body">
-            <h5 className="card-title">Certificate Title 1</h5>
-            <p className="card-text">Description of certificate 1.</p>
+          
+          <div className="card p-2">
+            <h5 className="card-title">AWS Cloud Practitioner</h5>
+            <br />
+            <p className="card-text">It covers key concepts, benefits, and basic terms of AWS, Giving Indepth Understanding, It is designed for individuals who want to demonstrate their foundational knowledge and understanding of cloud computing concepts </p>
+            <button className="btn btn-primary">View Certificate</button>
+            <footer className="blockquote-footer">
+              
+            </footer>
           </div>
         </div>
-        <div className="card p-3">
-          <blockquote className="blockquote mb-0 card-body">
-            <p>A well-known quote, contained in a blockquote element.</p>
+        <div className="card p-2">
+          <br />
+        <h5 className="card-title">AWS DevOps</h5>
+           <br />
+            <p>covers a range of topics, including continuous integration, continuous delivery, automation,infrastructure, & continuous integration</p>
+            <button className="btn btn-primary">View Certificate</button>
             <footer className="blockquote-footer">
-              <small className="text-muted">
-                Someone famous in <cite title="Source Title">Source Title</cite>
-              </small>
+              
             </footer>
-          </blockquote>
+          
+        </div>
+        <div className="card p-2">
+          <br />
+        <h5 className="card-title">IBM Cyber Security</h5>
+           <br />
+            <p>It covers a wide range of topics related to protecting digital assets, networks & information systems from cyber threats and attacks.</p>
+            <button className="btn btn-primary">View Certificate</button>
+            <footer className="blockquote-footer">
+              
+            </footer>
+         
         </div>
         <div className="card">
-          <img src="..." className="card-img-top" alt="Certificate 2" />
+         
           <div className="card-body">
-            <h5 className="card-title">Certificate Title 2</h5>
-            <p className="card-text">Description of certificate 2.</p>
+          <h5 className="card-title">AWS Technical Essentials</h5>
+          <br />
+            <p className="card-text"> It covers essential concepts, terminology, and key services offered by AWS.</p>
+            <button className="btn btn-primary">View Certificate</button>
+            <footer className="blockquote-footer">
+              
+            </footer>
            
           </div>
         </div>
-        {/* More card components can be added here */}
+       
+        <div className="card p-2">
+          <br />
+        <h5 className="card-title">Figma Design</h5>
+          <br />
+            <p>The Figma Design course provides instruction on how to effectively use Figma, a popular cloud-based design</p>
+            <button className="btn btn-primary">View Certificate</button>
+            <footer className="blockquote-footer">
+              
+            </footer>
+      
+        </div>
+      
       </div>
     </div>
   );
