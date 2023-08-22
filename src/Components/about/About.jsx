@@ -11,20 +11,21 @@ const About = () => {
         </div> 
         <Card style={{ display: 'flex', width: '18rem' }}>
             <Card.Img className="card-image" variant="top" src="src/assets/IMG_0330.jpeg" />
-              <div style={{ flex: 3, padding: '0rem' }}>
+              <div style={{ flex: 10, padding: '1rem' }}>
                   <div className='card_content'>
-                    
-      
+                  <Card.Body>
+                     my content for the right side goes here 
+             
+                </Card.Body>
                 </div>
             </div>
             </Card>
       <br />
       <div className='card_row'>
-        
-          <Card style={{ width: '23rem' }}>
+        <Card style={{ width: '23rem' }}>
        
-           <Card.Body>
-           <Card.Title style={{ color: '#333403', fontWeight: 'bold', fontSize: '1.5rem' }}>Skills</Card.Title>
+          <Card.Body>
+          <Card.Title style={{ color: '#333403', fontWeight: 'bold', fontSize: '1.5rem' }}>Skills</Card.Title>
                     <Card.Img variant="top" src="src/assets/icons8-html-48.png" alt="Card Image" />
                     <Card.Img variant="top" src="src/assets/icons8-css-48.png" alt="Card Image" />
                     <Card.Img variant="top" src="src/assets/icons8-javascript-64.png" alt="Card Image" />
@@ -33,7 +34,7 @@ const About = () => {
                     <Card.Img variant="top" src="src/assets/icons8-java-48.png" alt="Card Image" />
                     <Card.Img variant="top" src="src/assets/icons8-python-48.png" alt="Card Image" />
                     <Card.Img variant="top" src="src/assets/icons8-figma-100.png" alt="Card Image" />
-        
+
           </Card.Body>
         </Card>
 
