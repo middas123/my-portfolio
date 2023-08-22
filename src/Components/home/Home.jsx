@@ -38,7 +38,7 @@ const Home = () => {
           <img src={profileImageUrl} alt="Profile" className="profile-image" /><br />
           <div className='connect'>
           <p className="connect-button">
-            <a href="#">Let's Connect</a>
+            <a href="#contact">Let's Connect</a>
           </p>
           </div>
         </div>
@@ -53,6 +53,7 @@ const Home = () => {
           <a className="btn btn-primary btn-lg" href="src/assets/Beige Modern Digital Interface Professional Developer CV Resume.pdf" role="button">
             <strong>Download Resume</strong>
           </a>
+          
         </div>
       </div>
     </div>
