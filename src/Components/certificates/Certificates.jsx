@@ -5,7 +5,7 @@ const Certificates = () => {
   return (
     <div className="certificates-wrapper" id='certificates'>
       <div className="certificates-heading">
-        <h2>Certificates</h2>
+        <h2><strong>Certificates</strong></h2>
         <h />
         <div className="vertical-line"></div>
       </div>
