@@ -6,9 +6,10 @@
     font-size: 24px;
     font-weight: bold;
   }
+  
   /* Certificates.css */
-
-/* .certificates-wrapper {
+  
+  /* .certificates-wrapper {
     padding: 50px;
   } */
   
@@ -37,10 +38,14 @@
   }
   
   .card {
-    background-color: #ffffff00;
+    background-color: #f0f0f0; /* Add your desired background color here */
     border-radius: 10px;
     box-shadow: 0px 2px 5px rgba(5, 189, 88, 0.1);
     padding: 20px;
+  }
+  .card p {
+    font-size: 1rem;
+    margin-bottom: 16px;
   }
   
   .card-title {
@@ -71,8 +76,6 @@
     padding-left: 15px;
     margin: 0;
   }
-  
-  
   
   /* Responsive styles */
   
