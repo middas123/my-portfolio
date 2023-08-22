@@ -1,0 +1,68 @@
+/* header.css */
+
+/* Navbar background color */
+.bg-body-tertiary {
+    background-color: #f8f9fa; /* You can change this color */
+  }
+  
+  /* Navbar brand text */
+  .navbar-brand {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #333403; /* You can change this color */
+  }
+  
+  /* Navbar links */
+  .nav-link {
+    font-size: 0.8rem;
+    font-weight: 1000;
+    color: #555; /* You can change this color */
+    margin-right: 10px;
+    text-transform: uppercase;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    color: #007bff; /* You can change this color */
+  }
+  
+  /* Navbar dropdown */
+  .navbar-nav .nav-item .dropdown-menu {
+    background-color: #f8f9fa; /* You can change this color */
+    border: none;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar-nav .nav-item .dropdown-item {
+    color: #333; /* You can change this color */
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .navbar-nav .nav-item .dropdown-item:hover {
+    background-color: #007bff; /* You can change this color */
+    color: #fff; /* You can change this color */
+  }
+  /* Add this CSS code to your stylesheets */
+
+/* Apply a scale transformation on hover */
+.Navbar a {
+  transition: transform 0.3s ease-in-out;
+}
+
+.Navbar a:hover {
+  transform: scale(1.1);
+}
+
+  
+  /* Responsive styles */
+  @media (max-width: 991px) {
+    .navbar-nav {
+      text-align: center;
+    }
+  
+    .nav-link {
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+  }
+  
