@@ -5,7 +5,7 @@ import 'animate.css';
 import './home.css';
 
 const Home = () => {
-  const profileImageUrl = 'src/assets/IMG_0330.jpeg';
+  const profileImageUrl = 'src/assets/about_pic-removebg-preview (1).png';
 
   useEffect(() => {
     const options = {
