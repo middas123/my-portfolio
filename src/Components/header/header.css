@@ -11,7 +11,16 @@
     font-weight: bold;
     color: #333403; /* You can change this color */
     
+    
   }
+  
+.navbar-brand {
+  margin-right: auto; /* Pushes the text to the left by taking up all available space on the right */
+  font-size: 18px; /* Adjust the font size as needed */
+  color: #333; /* Adjust the text color as needed */
+   /* Remove default text underline */
+}
+
   
   /* Navbar links */
   .nav-link {

@@ -10,7 +10,10 @@ function Header() {
     <div>
       <Navbar expand="lg" className="bg-body-tertiary fixed-top">
         <Container>
-          <Navbar.Brand href="#home">Welcome to my portfolio</Navbar.Brand>
+        <nav className="navbar">
+            <a className="navbar-brand" href="#home">Welcome to my portfolio</a>
+        </nav>
+
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
