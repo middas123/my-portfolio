@@ -7,6 +7,7 @@
   min-height: 70vh;
   display: flex;
   align-items: center;
+  justify-content: space-between; /* Add space between text and image */
 }
 
 .text-container {
@@ -37,7 +38,6 @@
 .connect {
   text-align: center;
   margin-top: -88px;
-  
 }
 
 /* Styling for the connect button */
@@ -51,7 +51,6 @@
   margin-top: 270px;
   margin-left: -970px;
 }
-
 
 .connect-button a:hover {
   background-color: #333403;
@@ -79,6 +78,7 @@
   text-align: center;
   margin-top: 20px;
 }
+
 /* Style for the container of social media icons */
 .socials {
   position: relative;
@@ -97,9 +97,7 @@
   color: #210dd8; /* Change the color as needed */
   font-size: 24px; /* Adjust the font size as needed */
   text-decoration: none;
-  
 }
-
 
 /* Hover effect for social media icons */
 .social-icons a:hover {
@@ -112,7 +110,6 @@
   bottom: 0;
   right: 0;
 }
-
 
 .rotate-icon {
   animation: rotate 7s linear infinite; /* Adjust animation duration as needed */
@@ -134,6 +131,7 @@
   .jumbotron {
     flex-direction: column;
     padding: 20px;
+    align-items: center; /* Center content on small screens */
   }
 
   .text-container {
@@ -157,5 +155,20 @@
 
   .connect {
     margin-top: 30px;
+  }
+  
+  .connect-button a {
+    margin: 20px auto; /* Center connect button on small screens */
+  }
+  
+  .socials {
+    justify-content: center; /* Center social icons on small screens */
+    align-items: center;
+    height: auto;
+  }
+  
+  .social-icons a {
+    margin: 5px; /* Adjust margin for small screens */
+    margin-right: 20px;
   }
 }
