@@ -75,16 +75,19 @@
 /* Add these styles to your existing CSS file */
 
 .social-icons a {
-  font-size: 24px;
+  font-size: 15px;
   color: #333;
   margin-left: 10px;
   transition: transform 0.3s ease;
+  border-radius: 10px;
+  
 }
 
 .social-icons a:hover {
   color: #007bff;
   animation: bounce 0.5s infinite;
 }
+
 
 @keyframes bounce {
   0%, 20%, 50%, 80%, 100% {
