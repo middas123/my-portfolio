@@ -109,6 +109,21 @@ div.flex-item-1 img {
   text-align: justify;
   
 }
+@keyframes infiniteFlip {
+  0% {
+    transform: perspective(800px) rotateY(0);
+  }
+  100% {
+    transform: perspective(800px) rotateY(360deg);
+  }
+}
+
+.infinite-flip-image {
+  animation: infiniteFlip 4s linear infinite; /* Adjust the duration and timing function as needed */
+  transform-style: preserve-3d;
+}
+
+
 
 
   

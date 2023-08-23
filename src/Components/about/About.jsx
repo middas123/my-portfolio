@@ -34,14 +34,15 @@ const About = () => {
        
           <Card.Body>
           <Card.Title style={{ color: '#333403', fontWeight: 'bold', fontSize: '1.5rem' }}>Skills</Card.Title>
-                    <Card.Img variant="top" src="src/assets/icons8-html-48.png" alt="Card Image" />
-                    <Card.Img variant="top" src="src/assets/icons8-css-48.png" alt="Card Image" />
-                    <Card.Img variant="top" src="src/assets/icons8-javascript-64.png" alt="Card Image" />
-                    <Card.Img variant="top" src="src/assets/icons8-react-50.png" alt="Card Image" />
-                    <Card.Img variant="top" src="src/assets/icons8-nodejs-48.png" alt="Card Image" />
-                    <Card.Img variant="top" src="src/assets/icons8-java-48.png" alt="Card Image" />
-                    <Card.Img variant="top" src="src/assets/icons8-python-48.png" alt="Card Image" />
-                    <Card.Img variant="top" src="src/assets/icons8-figma-100.png" alt="Card Image" />
+          <Card.Img className="infinite-flip-image" variant="top" src="src/assets/icons8-html-48.png" alt="Card Image" />
+          <Card.Img className="infinite-flip-image" variant="top" src="src/assets/icons8-css-48.png" alt="Card Image" />
+          <Card.Img className="infinite-flip-image" variant="top" src="src/assets/icons8-javascript-64.png" alt="Card Image" />
+          <Card.Img className="infinite-flip-image" variant="top" src="src/assets/icons8-react-50.png" alt="Card Image" />
+          <Card.Img className="infinite-flip-image" variant="top" src="src/assets/icons8-nodejs-48.png" alt="Card Image" />
+          <Card.Img className="infinite-flip-image" variant="top" src="src/assets/icons8-java-48.png" alt="Card Image" />
+          <Card.Img className="infinite-flip-image" variant="top" src="src/assets/icons8-python-48.png" alt="Card Image" />
+          <Card.Img className="infinite-flip-image" variant="top" src="src/assets/icons8-figma-100.png" alt="Card Image" />
+
 
           </Card.Body>
         </Card>
