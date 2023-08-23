@@ -68,17 +68,48 @@ div.flex-container {
 /* Styling for the first flex item (image) */
 div.flex-item-1 {
   flex: 1;
+
 }
 
 /* Styling for the second flex item (content) */
 div.flex-item-2 {
-  flex: 2;
+  flex: 1.2;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* This aligns content horizontally to the start */
+  align-self: flex-start; /* This aligns the item itself to the start vertically */
 }
+
 
 /* Styling for the image */
 div.flex-item-1 img {
-  max-width: 100%; /* Adjust to your desired image size */
+  max-width: 80%; 
+  border-radius: 45px;
+  animation: bounce 5s infinite;
+
 }
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-15px); /* Adjust this value for desired bounce height */
+  }
+}
+
+.flex-item-2 {
+  max-width: 600px; /* Limit the maximum width of the content */
+  margin: 0 auto;   /* Center the content horizontally within the container */
+  padding: 20px;    /* Add some padding for better spacing */
+  background-color: #fff; /* Set a background color for the content */
+  border: 1px solid #ccc; /* Add a border for visual separation */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
+  border-radius: 45px;
+  border-color: #333403;
+  text-align: justify;
+  
+}
+
 
   
   @media (max-width: 768px) {

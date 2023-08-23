@@ -10,14 +10,21 @@ const About = () => {
 <div className="container">
   <h2>About</h2>
 </div>
-<div className="flex-container">
-  <div className="flex-item-1">
-    <img src="src/assets/about_pic-removebg-preview (1).png" alt="Image" />
+  <div className="flex-container">
+    <div className="flex-item-1">
+      <img src="src/assets/about_pic-removebg-preview (1).png" alt="Image" />
+    </div>
+    <div className="flex-item-2">
+       <strong> Middas is an enthusiastic junior Frontend React developer who is passionate 
+        about crafting engaging web interfaces using React. With a strong foundation in React concepts,
+        I transform designs into functional components that enhance user experiences. Guided by mentors,
+        I contribute to modern web development, skilled in debugging, UX/UI design principles,
+        and utilizing HTML5, CSS, JavaScript, and Node.js. I am committed to continuous learning and collaborative problem-solving,
+        aiming to create innovative, user-focused digital solutions. I thrive in collaborative environments where I can contribute my 
+        ideas and learn from experienced professionals. I possess excellent communication skills, which enable me to effectively convey
+        complex technical concepts to both technical and non-technical stakeholders.</strong>
+    </div>
   </div>
-  <div className="flex-item-2">
-      Your content here guhrfdvoiphjpmghrtyvr0jveijeq0  
-  </div>
-</div>
 
 
 

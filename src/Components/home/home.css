@@ -80,12 +80,13 @@
   margin-left: 10px;
   transition: transform 0.3s ease;
   border-radius: 10px;
+  animation: bounce 5s infinite;
   
 }
 
 .social-icons a:hover {
   color: #007bff;
-  animation: bounce 0.5s infinite;
+  
 }
 
 
