@@ -7,20 +7,20 @@ const About = () => {
   return (
     <div className='card_container' id='about'>
 
-        <Card style={{ display: 'flex', width: '18rem' }}>
-          <div>
-            <Card.Img className="card-image" variant="top" src="src/assets/IMG_0330.jpeg" />
-          </div>
-          <div style={{ flex: 10, padding: '1rem' }}>
+<div className="container">
+  <h2>About</h2>
+</div>
+<div className="flex-container">
+  <div className="flex-item-1">
+    <img src="src/assets/about_pic-removebg-preview (1).png" alt="Image" />
+  </div>
+  <div className="flex-item-2">
+      Your content here guhrfdvoiphjpmghrtyvr0jveijeq0  
+  </div>
+</div>
 
-            <div className='card_content'>
-              <Card.Body>
-                my content for the right side goes here 
-             
-              </Card.Body>
-              </div>
-            </div>
-            </Card>
+
+
       <br />
       <div className='card_row'>
         <Card style={{ width: '23rem' }}>

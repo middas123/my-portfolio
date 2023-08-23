@@ -1,12 +1,12 @@
-/* .card_container {
+ /* .card_container {
     display: flex;
     justify-content: space-between;
     margin: 10px;
-  } */
-  
+  } 
+   */
   .card_row {
     display: flex;
-    gap: 10px;
+    gap: 2px;
   }
   
   .card {
@@ -15,26 +15,25 @@
   }
   
   .card-img-top {
-    max-height: 100%;
+    max-height: 50%;
     width: 5rem;
 
   }
 
-  .card_container {
+  /* .card_container {
     display: flex;
     align-items: center;
     margin: 10px;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
-    /* align-items: center; */
     padding: 2px;
-  }
-/*   
+  } */
+  
   .card_wrapper {
     flex: 1;
     margin: 10px;
     max-width: 40px;
-  } */
+  }
   
   .card_title {
     color: #333403;
@@ -47,23 +46,40 @@
     justify-content: space-around;
     align-items: center;
   }
-  
-  .card_text {
-    color: #333403;
-  }
-  
-  /* Css for iamge, 'card-image' on the Card.Img component */
-.card-image {
-   
-    width: 40%; 
-    height: 40; 
-    object-fit: left; 
-    border-radius: 40px; 
-    float: left;
-    
-  }
-  
-  
+
+/* Styling for the container of the 'About' section */
+div.container {
+  max-width: 18rem;
+  margin: 0 auto;
+  text-align: center; /* Align the heading and content in the center */
+}
+
+/* Styling for the 'About' section heading */
+div.container h2 {
+  font-weight: bold;
+}
+
+/* Styling for the flex container */
+div.flex-container {
+  display: flex;
+  align-items: center; /* Vertically center align items */
+}
+
+/* Styling for the first flex item (image) */
+div.flex-item-1 {
+  flex: 1;
+}
+
+/* Styling for the second flex item (content) */
+div.flex-item-2 {
+  flex: 2;
+}
+
+/* Styling for the image */
+div.flex-item-1 img {
+  max-width: 100%; /* Adjust to your desired image size */
+}
+
   
   @media (max-width: 768px) {
     .card_row {
