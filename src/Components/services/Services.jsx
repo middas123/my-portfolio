@@ -25,7 +25,7 @@ const projects = [
   {
     title: "Portfolio Of Evidence",
     link: "https://github.com/middas123/Online-Portfolio-",
-    image: "src/assets/IMG_0330.jpeg",
+    image: "src/assets/about_pic-removebg-preview (1).png",
   },
 ];
 
