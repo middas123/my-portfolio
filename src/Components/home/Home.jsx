@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import Typed from 'typed.js';
-import { FaLinkedin, FaTwitter, FaGithub } from 'react-icons/fa'; // Import icons from react-icons
+import { FaLinkedin, FaTwitter, FaGithub, FaInstagram } from 'react-icons/fa'; // Import icons from react-icons
 import 'animate.css';
 import './home.css';
 
@@ -37,24 +37,6 @@ const Home = () => {
       <div className="content-container">
         <div className="profile-image-container">
           <img src={profileImageUrl} alt="Profile" className="profile-image" /><br />
-          <div className='connect'>
-            <p className="connect-button">
-              <a href="#contact">Let's Connect</a>
-              <span className="social-icons">
-                {/* Add social media icons */}
-                <a href="YOUR_LINKEDIN_URL" target="_blank" rel="noopener noreferrer">
-                  <FaLinkedin />
-                </a>
-                <a href="YOUR_TWITTER_URL" target="_blank" rel="noopener noreferrer">
-                  <FaTwitter />
-                </a>
-                <a href="YOUR_GITHUB_URL" target="_blank" rel="noopener noreferrer">
-                  <FaGithub />
-                </a>
-                
-              </span>
-            </p>
-          </div>
         </div>
         <div className="text-container">
           <h1 className="display-4" style={{ color: 'black' }}>HI! I am <strong>Middas</strong></h1>
@@ -67,6 +49,28 @@ const Home = () => {
           <a className="btn btn-primary btn-lg" href="src/assets/Beige Modern Digital Interface Professional Developer CV Resume.pdf" role="button">
             <strong>Download Resume</strong>
           </a>
+          <div className='connect'>
+            <p className="connect-button">
+              <a href="#contact">Let's Connect</a>
+            </p>
+          </div>
+          <div className='socials'>
+            <span className="social-icons">
+              {/* Add social media icons with custom rotation animation */}
+              <a href="https://www.linkedin.com/in/boitumelo-middas-mokobane-544280148/" className="rotate-icon" target="_blank" rel="noopener noreferrer">
+                <FaLinkedin />
+              </a>
+              <a href="https://twitter.com/MiddasMoko44348" className="rotate-icon" target="_blank" rel="noopener noreferrer">
+                <FaTwitter />
+              </a>
+              <a href="https://github.com/middas123" className="rotate-icon" target="_blank" rel="noopener noreferrer">
+                <FaGithub />
+              </a>
+              <a href="https://www.instagram.com/middasmoks/" className="rotate-icon" target="_blank" rel="noopener noreferrer">
+                <FaInstagram />
+              </a>
+            </span>
+          </div>
         </div>
       </div>
     </div>
