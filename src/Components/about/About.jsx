@@ -6,18 +6,19 @@ import './about.css'
 const About = () => {
   return (
     <div className='card_container' id='about'>
-    <div >
-    {/* <h2>About</h2> Added heading */}
-        </div> 
+
         <Card style={{ display: 'flex', width: '18rem' }}>
+          <div>
             <Card.Img className="card-image" variant="top" src="src/assets/IMG_0330.jpeg" />
-              <div style={{ flex: 10, padding: '1rem' }}>
-                  <div className='card_content'>
-                  <Card.Body>
-                     my content for the right side goes here 
+          </div>
+          <div style={{ flex: 10, padding: '1rem' }}>
+
+            <div className='card_content'>
+              <Card.Body>
+                my content for the right side goes here 
              
-                </Card.Body>
-                </div>
+              </Card.Body>
+              </div>
             </div>
             </Card>
       <br />

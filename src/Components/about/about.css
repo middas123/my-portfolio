@@ -1,8 +1,8 @@
-.card_container {
+/* .card_container {
     display: flex;
     justify-content: space-between;
     margin: 10px;
-  }
+  } */
   
   .card_row {
     display: flex;
@@ -22,17 +22,19 @@
 
   .card_container {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
     align-items: center;
+    margin: 10px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* align-items: center; */
     padding: 2px;
   }
-  
+/*   
   .card_wrapper {
     flex: 1;
     margin: 10px;
     max-width: 40px;
-  }
+  } */
   
   .card_title {
     color: #333403;
@@ -50,13 +52,14 @@
     color: #333403;
   }
   
-  /* Assuming you have a class named 'card-image' on the Card.Img component */
+  /* Css for iamge, 'card-image' on the Card.Img component */
 .card-image {
-    /* Add your image styling here */
-    width: 40%; /* Adjust this to your desired width */
-    height: 40; /* Maintain the aspect ratio of the image */
-    object-fit: left; /* Scale the image while preserving aspect ratio */
-    border-radius: 40px; /* Add rounded corners if desired */
+   
+    width: 40%; 
+    height: 40; 
+    object-fit: left; 
+    border-radius: 40px; 
+    float: left;
     
   }
   
