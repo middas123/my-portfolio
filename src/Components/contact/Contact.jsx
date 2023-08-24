@@ -1,12 +1,12 @@
 
-import { Container , Row , Col } from 'react-bootstrap';
+import {  Row , Col } from 'react-bootstrap';
 import { contactConfig } from './content_option';
 import "./Contact.css";
 
 const Contact = () => {
   return (
-    <Container >
-       <Row clasName="mb-5 mt-3">
+    <div className='Container' >
+       <Row className="mb-5 mt-3">
           <Col lg="8">
             <h1 className="display-4 mb-4">
               Contact Me
@@ -34,6 +34,7 @@ const Contact = () => {
                     <input 
                       className="form-control"
                       id="name"
+                      name="name"
                       placeholder="Name"
                       type="text"
                       />
@@ -42,15 +43,28 @@ const Contact = () => {
                     <input 
                       className="form-control rounded-0"
                       id="email"
+                      name="email"
                       placeholder="Email"
-                      type="text"
+                      type="email"
                       />
                  </Col>
+              </Row>
+              <textarea
+                        className="form-control rounded-0" id="message"
+                        name="message"
+                        placeholder="Message"
+                        rows="5"
+              ></textarea>
+              <br />
+              <Row>
+                <Col lg="12" className="form-group">
+                  <button className="btn ac_btn" type="submit">send</button>
+                </Col>
               </Row>
             </form>
          </Col>
        </Row>
-    </Container>
+   </div>
   )
 }
 
