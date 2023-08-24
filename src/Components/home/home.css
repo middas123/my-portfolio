@@ -1,20 +1,16 @@
 /* Base styles */
 .jumbotron {
-  margin: 30px;
+
   background-color: grey;
   color: #fff;
   border-radius: 30px;
   min-height: 70vh;
-  display: flex;
-  align-items: center;
-  justify-content: space-between; /* Add space between text and image */
+
+
+ /* Add space between text and image */
+
 }
 
-.text-container {
-  position: absolute;
-  right: 150px;
-  margin-top: -195px;
-}
 
 .profile-image-container {
   position: absolute;
@@ -48,8 +44,8 @@
   color: #fff;
   text-decoration: none;
   border-radius: 5px;
-  margin-top: 270px;
-  margin-left: -970px;
+  /* margin-top: 270px;
+  margin-left: -970px; */
 }
 
 .connect-button a:hover {
@@ -127,48 +123,7 @@
 /* Position the social media icons */
 
 /* Responsive styles */
-@media (max-width: 768px) {
-  .jumbotron {
-    flex-direction: column;
-    padding: 20px;
-    align-items: center; /* Center content on small screens */
-  }
 
-  .text-container {
-    position: static;
-    text-align: center;
-    margin-top: 20px;
-    padding: 0 20px;
-  }
-
-  .profile-image-container {
-    position: static;
-    margin: 20px auto;
-  }
-
-  .profile-image {
-    width: 200px;
-    height: 200px;
-    margin: 0 auto;
-    display: block;
-  }
-
-  .connect {
-    margin-top: 30px;
-  }
-  
-  .connect-button a {
-    margin: 20px auto; /* Center connect button on small screens */
-  }
-  
-  .socials {
-    justify-content: center; /* Center social icons on small screens */
-    align-items: center;
-    height: auto;
-  }
-  
-  .social-icons a {
-    margin: 5px; /* Adjust margin for small screens */
-    margin-right: 20px;
-  }
+.border{
+  border: #210dd8;
 }

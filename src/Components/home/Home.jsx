@@ -1,4 +1,5 @@
-import React, { useEffect } from 'react';
+import  { useEffect } from 'react';
+import Image from 'react-bootstrap/Image';
 import Typed from 'typed.js';
 import { FaLinkedin, FaTwitter, FaGithub, FaInstagram } from 'react-icons/fa'; // Import icons from react-icons
 import 'animate.css';
@@ -33,12 +34,13 @@ const Home = () => {
   }, []);
 
   return (
-    <div className="jumbotron" id="home">
-      <div className="content-container">
-        <div className="profile-image-container">
-          <img src={profileImageUrl} alt="Profile" className="profile-image" /><br />
-        </div>
-        <div className="text-container">
+    <div className="jumbotron mt-5" id="home">
+      <div className="content-container d-lg-flex">
+       
+          <Image src={profileImageUrl} className='rounded  col-4 m-auto' fluid />
+          {/* <img src={profileImageUrl} alt="Profile" className="profile-image figure-img img-fluid rounded" /><br /> */}
+      
+        <div className="text-container col-6 mx-5">
           <h1 className="display-4" style={{ color: 'black' }}>HI! I am <strong>Middas</strong></h1>
           <p className="lead">
             <span className="typed-text"></span>
@@ -49,28 +51,14 @@ const Home = () => {
           <a className="btn btn-primary btn-lg" href="src/assets/Beige Modern Digital Interface Professional Developer CV Resume.pdf" role="button">
             <strong>Download Resume</strong>
           </a>
-          <div className='connect'>
-            <p className="connect-button">
+          <div className=''>
+         {/* klass yakho connect */}
+            <div className="connect-button m-5">
+    {/* klass yakho connect-button */}
               <a href="#contact">Let's Connect</a>
-            </p>
+            </div>
           </div>
-          <div className='socials'>
-            <span className="social-icons">
-              {/* Add social media icons with custom rotation animation */}
-              <a href="https://www.linkedin.com/in/boitumelo-middas-mokobane-544280148/" className="rotate-icon" target="_blank" rel="noopener noreferrer">
-                <FaLinkedin />
-              </a>
-              <a href="https://twitter.com/MiddasMoko44348" className="rotate-icon" target="_blank" rel="noopener noreferrer">
-                <FaTwitter />
-              </a>
-              <a href="https://github.com/middas123" className="rotate-icon" target="_blank" rel="noopener noreferrer">
-                <FaGithub />
-              </a>
-              <a href="https://www.instagram.com/middasmoks/" className="rotate-icon" target="_blank" rel="noopener noreferrer">
-                <FaInstagram />
-              </a>
-            </span>
-          </div>
+        
         </div>
       </div>
     </div>
