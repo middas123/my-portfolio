@@ -1,0 +1,10 @@
+.socials {
+    justify-content: center; /* Center social icons on small screens */
+    align-items: center;
+    height: auto;
+  }
+  
+  .social-icons a {
+    margin: 5px; /* Adjust margin for small screens */
+    margin-right: 20px;
+  }
