@@ -1,5 +1,5 @@
 body{
-    background-color: #0c0c0c;
+    background-color: rgb(208, 204, 211);
     /* color: aliceblue; */
     font-family: "Raleway", sans-serif;
     padding-top: 60px;
@@ -9,9 +9,9 @@ body{
     padding: 1.375rem .75rem;
     line-height: 1.5;
     color: #ffffff;
-    background-color: #0c0c0c;
+    background-color: #615e5e;
     border-radius: 0 !important;
-    /* border: 1px solid #fff; */
+    border: 1px solid #fff;
 }
 
 .contact_form input.form-control {
@@ -19,10 +19,27 @@ body{
     height: calc(2.5em + .75em + 2px);
 }
 
-/* .btn {
-    color: white;
-    border: 2px solid white;
-} */
-/* .btn:hover  {
-    color: #fff;
-} */
+.btn {
+    color: #333403;
+    border: 2px solid blue;
+} 
+.btn:hover  {
+    color: #0f0cc2;
+} 
+
+a.button-link {
+    display: inline-block;
+    text-decoration: none;
+    color: #ffffff; /* Text color */
+    background-color: #007bff; /* Button background color */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  a.button-link:hover {
+    background-color: #0056b3; /* Button background color on hover */
+  }

@@ -6,6 +6,18 @@ const About = () => {
   return (
     <div className='card_container' id='about'>
 
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const cards = document.querySelectorAll('.card');
+  cards.forEach(card => {
+    card.addEventListener('click', () => {
+      card.classList.toggle('flipped');
+    });
+  });
+});
+</script>
+
+
 <div className="container">
   <h2>About</h2>
 </div>
