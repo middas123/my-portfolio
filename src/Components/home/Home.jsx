@@ -1,7 +1,6 @@
 import  { useEffect } from 'react';
 import Image from 'react-bootstrap/Image';
 import Typed from 'typed.js';
-import { FaLinkedin, FaTwitter, FaGithub, FaInstagram } from 'react-icons/fa'; // Import icons from react-icons
 import 'animate.css';
 import './home.css';
 
@@ -55,7 +54,7 @@ const Home = () => {
          {/* klass yakho connect */}
             <div className="connect-button m-5">
     {/* klass yakho connect-button */}
-              <a href="#contact">Let's Connect</a>
+              <a href="#contact">Lets Connect</a>
             </div>
           </div>
         
