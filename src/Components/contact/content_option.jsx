@@ -1,6 +1,6 @@
 const contactConfig = {
   description: 
-          "ryuweyt78weryt7werydq4t7etyd87rewtry8ert7"
+          "Please feel free to contact me"
 };
 
 export {

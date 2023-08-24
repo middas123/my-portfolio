@@ -5,29 +5,33 @@ import "./Contact.css";
 
 const Contact = () => {
   return (
-    <div className='Container' >
-       <Row className="mb-5 mt-3">
+    <div className='Container' id='contact' >
+       <h1 ><strong>Contact</strong></h1>
+       {/* <Row className="mb-5 mt-3">
           <Col lg="8">
-            <h1 className="display-4 mb-4">
-              Contact Me
-            </h1>  
+            <h5 className="display-6 mb-4">
+              Contact me
+            </h5>  
           </Col>
-       </Row>
+       </Row> */}
+           <br />
+           <br />
+            <Row className="sec_sp">
+              <Col lg="5" className="mb-5">
+                  <h3 className="color_sec py-4"> Get in touch</h3>
+                  <address>
+                      <strong>Email: middasmokobane08@gmail.com</strong>
+                      <br/>
+                      <br />
+                      <strong>Phone: +27 79 604 6479</strong>
+                      <br/>
+                      <br />
+                      <strong>Location: <a href="https://www.google.com/search?q=lower+long+street%2C+foreshore%2C+cape+town&rlz=1C1CHBD_enZA1067ZA1067&oq=lower&gs_lcrp=EgZjaHJvbWUqBggAEEUYOzIGCAAQRRg7MgYIARBFGDkyCQgCEAAYQxiKBTIJCAMQLhhDGIoFMgwIBBAAGEMYsQMYigUyDAgFEAAYQxixAxiKBTIGCAYQRRg8MgYIBxBFGDzSAQgxNDQ3ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8">View on Map</a></strong>
+                  </address>
+                  <p>{contactConfig.description}</p>
+              </Col>
 
-       <Row className="sec_sp">
-         <Col lg="5" className="mb-5">
-            <h3 className="color_sec py-4"> Get in touch</h3>
-             <address>
-                <strong>Email : developer@react.com</strong>
-                <br/>
-                <br/>
-                <p>
-                  <strong>Phone : +277 xx xxx xxx</strong>
-                </p>
-             </address>
-             <p>{contactConfig.description}</p>
-         </Col>
-         <Col lg="7" className="d-flex align-items-center">
+          <Col lg="7" className="d-flex align-items-center">
             <form className="contact_form w-100">
               <Row>
                  <Col lg="6" className="form-group">
@@ -42,12 +46,34 @@ const Contact = () => {
                  <Col lg="6" className="form-group">
                     <input 
                       className="form-control rounded-0"
+                      id="surname"
+                      name="surname"
+                      placeholder="Surname"
+                      type="text"
+                      />
+                 </Col>
+                  <Col lg="6" className="form-group">
+                    <input 
+                      className="form-control rounded-0"
                       id="email"
                       name="email"
                       placeholder="Email"
                       type="email"
                       />
                  </Col>
+                  <Col lg="6" className="form-group">
+                    <input 
+                        className="form-control rounded-0"
+                        id="number"
+                        name="number"
+                        placeholder="Area Code + Number"
+                        type="text"
+                        pattern="\d{10}" // Use a regex pattern to validate 10 digits
+                        title="Please enter a 10-digit number"
+                        maxLength="12" // Maximum length of 12 characters (including area code and digits)
+                    />
+                </Col>
+
               </Row>
               <textarea
                         className="form-control rounded-0" id="message"
@@ -58,7 +84,7 @@ const Contact = () => {
               <br />
               <Row>
                 <Col lg="12" className="form-group">
-                  <button className="btn ac_btn" type="submit">send</button>
+                  <button className="btn ac_btn" type="submit">Submit</button>
                 </Col>
               </Row>
             </form>
