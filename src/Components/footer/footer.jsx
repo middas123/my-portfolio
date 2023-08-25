@@ -1,5 +1,6 @@
 
-import './Footer.css'; // You can create a CSS file for styling
+import { FaLinkedin , FaTwitter, FaInstagram, FaGithub } from 'react-icons/fa';
+import './Footer.css';
 
 function Footer() {
   const _currentYear = new Date().getFullYear();
@@ -7,16 +8,19 @@ function Footer() {
   return (
     <footer className="footer">
       <div className="footer-content">
-        <p>&copy; {_currentYear} Your Company. All rights reserved.</p>
+        <p>&copy; {_currentYear} EpheFrans.corp. All rights reserved.</p>
         <div className="footer-social-icons">
-          <a href="#" target="_blank" rel="noopener noreferrer">
-            <i className="fa fa-facebook"></i>
+          <a href="https://github.com/middas123" target="_blank" rel="noopener noreferrer">
+            <FaGithub />
           </a>
-          <a href="#" target="_blank" rel="noopener noreferrer">
-            <i className="fa fa-twitter"></i>
+          <a href="https://twitter.com/home" target="_blank" rel="noopener noreferrer">
+            <FaTwitter />
           </a>
-          <a href="#" target="_blank" rel="noopener noreferrer">
-            <i className="fa fa-instagram"></i>
+          <a href="https://www.instagram.com/middasmoks/" target="_blank" rel="noopener noreferrer">
+            <FaInstagram />
+          </a>
+          <a href="https://www.linkedin.com/in/boitumelo-middas-mokobane-544280148/" target="_blank" rel="noopener noreferrer">
+            <FaLinkedin />
           </a>
         </div>
       </div>

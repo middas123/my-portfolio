@@ -1,10 +1,61 @@
-.socials {
-    justify-content: center; /* Center social icons on small screens */
-    align-items: center;
-    height: auto;
-  }
-  
-  .social-icons a {
-    margin: 5px; /* Adjust margin for small screens */
-    margin-right: 20px;
-  }
+/* Footer.css */
+
+.footer {
+  background-color: #333; /* This is the shade of the background color */
+  color: white; /* Text color for better visibility on the dark background */
+  padding: 20px 0; /* Adding some padding for better spacing */
+}
+
+/* Additional styles for the content and social icons */
+/* .footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+} */
+
+.footer-social-icons {
+  display: flex;
+}
+
+.footer-social-icons a {
+  color: white;
+  text-decoration: none;
+  margin-right: 10px;
+}
+/* Footer.css */
+
+.footer {
+  background-color: #849c7f;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer p {
+  margin: 0;
+  color: #333;
+  font-size: 14px;
+}
+
+.footer-social-icons {
+  margin-top: 10px;
+}
+
+.footer-social-icons a {
+  color: #333;
+  font-size: 24px;
+  margin: 0 10px;
+  transition: color 0.3s ease;
+}
+
+.footer-social-icons a:hover {
+  color: #007bff;
+}
+
+/* You can add more specific styles as needed */
+
