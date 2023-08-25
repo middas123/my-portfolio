@@ -44,3 +44,31 @@ a.button-link {
   a.button-link:hover {
     background-color: #0056b3; /* Button background color on hover */
   }
+  
+/* Contact.css */
+
+/* Style for icon elements */
+i.fas {
+    font-size: 24px; /* Adjust the font size as needed */
+    margin-right: 10px; /* Add spacing between icon and text */
+  }
+  
+  /* Style for specific icons */
+  i.fas.fa-envelope {
+    color: rgb(151, 43, 43); /* Change icon color */
+  }
+  
+  i.fas.fa-phone {
+    color: rgb(8, 8, 8); /* Change icon color */
+  }
+  
+  i.fas.fa-map-marker-alt {
+    color: rgb(221, 8, 8); /* Change icon color */
+  }
+  
+  /* Style for links */
+  a {
+    color: blue; /* Change link color */
+  }
+  
+  
