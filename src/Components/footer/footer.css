@@ -57,5 +57,21 @@
   color: #007bff;
 }
 
-/* You can add more specific styles as needed */
+/* Footer.css */
+
+/* Add this at the top of the CSS file */
+@keyframes flip {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(180deg);
+  }
+}
+
+/* Add this class to apply the flip animation */
+.footer-social-icons a:hover svg {
+  animation: flip 0.5s ease-in-out;
+}
+
 
