@@ -18,22 +18,25 @@ const Contact = () => {
            <br />
             <Row className="sec_sp">
             <Col lg="5" className="mb-5">
-              <h3 className="color_sec py-4"> Get in touch</h3>
-                <address>
-                    <strong style={{ color: 'darkblue' }}><i className="fas fa-envelope"></i> <br /> Email: middasmokobane08@gmail.com</strong>
-                   <br />
-                    <br />
-                      <strong style={{ color: 'darkblue' }}><i className="fas fa-phone"> </i> <br />  Phone:+27 79 604 6479</strong>
-                        <br />
-                      <br />
-                        <strong style={{ color: 'darkblue' }}>
-                        <i className="fas fa-map-marker-alt"></i>  <br />
-                        Location: <a href="https://www.google.com/search?q=lower+long+street%2C+foreshore%2C+cape+town&rlz=1C1CHBD_enZA1067ZA1067&oq=lower&gs_lcrp=EgZjaHJvbWUqBggAEEUYOzIGCAAQRRg7MgYIARBFGDkyCQgCEAAYQxiKBTIJCAMQLhhDGIoFMgwIBBAAGEMYsQMYigUyDAgFEAAYQxixAxiKBTIGCAYQRRg8MgYIBxBFGDzSAQgxNDQ3ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8" style={{ color: 'blue' }}>
-                     View on Map
-                     
-                    </a>
-                  </strong>
-              </address>
+                <h3 className="color_sec py-4"> Get in touch</h3>
+               <address>
+                  <strong style={{ color: 'darkblue' }}>
+                  <i className="fas fa-envelope"></i> <br />
+                   Email: <a href="mailto:middasmokobane08@gmail.com" style={{ color: 'darkblue' }}>middasmokobane08@gmail.com</a>
+                 </strong>
+                 <br />
+                <br />
+                  <strong style={{ color: 'darkblue' }}><i className="fas fa-phone"> </i> <br />  Phone:+27 79 604 6479</strong>
+        
+                <br />
+                <br />
+                  <strong style={{ color: 'darkblue' }}>
+                  <i className="fas fa-map-marker-alt"></i>  <br />
+               Location: <a href="https://www.google.com/search?q=lower+long+street%2C+foreshore%2C+cape+town&rlz=1C1CHBD_enZA1067ZA1067&oq=lower&gs_lcrp=EgZjaHJvbWUqBggAEEUYOzIGCAAQRRg7MgYIARBFGDkyCQgCEAAYQxiKBTIJCAMQLhhDGIoFMgwIBBAAGEMYsQMYigUyDAgFEAAYQxixAxiKBTIGCAYQRRg8MgYIBxBFGDzSAQgxNDQ3ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8" style={{ color: 'blue' }}>
+                 View on Map
+               </a>
+             </strong>
+           </address>
               <p>{contactConfig.description}</p>
             </Col>
 
