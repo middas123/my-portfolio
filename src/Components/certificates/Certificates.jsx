@@ -11,7 +11,7 @@ const Certificates = () => {
       </div>
       <div className="card-columns">
         <div className="card">
-          <div className="card p-2">
+          <div className="card p-2 rotate-on-hover">
             <br />
             <h5 className="card-title">AWS Cloud Practitioner</h5>
             <br />
@@ -22,7 +22,7 @@ const Certificates = () => {
           </div>
         </div>
         <div className="card">
-          <div className="card p-2">
+          <div className="card p-2 rotate-on-hover">
             <br />
             <h5 className="card-title">AWS DevOps</h5>
             <br />
@@ -33,7 +33,7 @@ const Certificates = () => {
           </div>
         </div>
         <div className="card">
-          <div className="card p-2">
+          <div className="card p-2 rotate-on-hover">
             <br />
             <h5 className="card-title">IBM Cyber Security</h5>
             <br />
@@ -44,7 +44,7 @@ const Certificates = () => {
           </div>
         </div>
         <div className="card">
-          <div className="card p-2">
+          <div className="card p-2 rotate-on-hover">
             <br />
             <h5 className="card-title">AWS Technical Essentials</h5>
             <br />
@@ -54,17 +54,18 @@ const Certificates = () => {
             </footer>
           </div>
         </div>
-        <div className="card">
-          <div className="card p-2">
-            <br />
-            <h5 className="card-title">Figma Design</h5>
-            <br />
-            <p>The Figma Design course provides instruction on how to effectively use Figma</p>
-            <a href="src/assets/Figma.pdf" className="btn btn-primary" target="_blank" rel="noopener noreferrer">View Certificate</a>
-            <footer className="blockquote-footer">
-            </footer>
-          </div>
-        </div>
+         <div className="card">
+            <div className="card p-2 rotate-on-hover">
+              <br />
+              <h5 className="card-title">Figma Design</h5>
+              <br />
+              <p>The Figma Design course provides instruction on how to effectively use Figma</p>
+              <a href="src/assets/Figma.pdf" className="btn btn-primary" target="_blank" rel="noopener noreferrer">View Certificate</a>
+              <footer className="blockquote-footer">
+              </footer>
+            </div>
+         </div>
+
       </div>
     </div>
   );
