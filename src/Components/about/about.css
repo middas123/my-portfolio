@@ -2,8 +2,10 @@
     display: flex;
     justify-content: space-between;
     margin: 10px;
-  } 
+  }
+  *
    */
+   
   .card_row {
     display: flex;
     gap: 2px;
@@ -123,25 +125,37 @@ div.flex-item-1 img {
   transform-style: preserve-3d;
 }
 
+.custom-card {
+  width: 23rem;
+  overflow: hidden; /* Hide the overflow to hide the blurred text */
+}
 
+.card-title {
+  color: #333403;
+  font-weight: bold;
+  font-size: 1.5rem;
+  transition: all 0.3s ease; /* Add a transition for smooth effect */
+}
 
+.card-text {
+  color: #333403;
+  transition: all 0.3s ease; /* Add a transition for smooth effect */
+  filter: blur(5px); /* Apply initial blur effect */
+}
 
+.custom-card:hover .card-title,
+.custom-card:hover .card-text {
+  filter: blur(0); /* Remove blur effect on hover */
+}
+ /* Responsive styles */
   
-  @media (max-width: 768px) {
-    .card_row {
-      flex-direction: column;
-      align-items: center;
-    }
-  
-    .card {
-      width: 100%;
-      max-width: 100%;
-    }
+ @media (max-width: 768px) {
+  .card-columns {
+    grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
   }
-  
-  @media (max-width: 576px) {
-    .card_container {
-      padding: 1rem;
-    }
-  }
-  
+}
+
+
+
+
+ 

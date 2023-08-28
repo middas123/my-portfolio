@@ -3,6 +3,7 @@
 import Card from 'react-bootstrap/Card';
 import './about.css'
 
+
 const About = () => {
   return (
     <div className='card_container' id='about'>
@@ -10,8 +11,8 @@ const About = () => {
 <div className="container">
   <h2>About</h2>
 </div>
-  <div className="flex-container">
-    <div className="flex-item-1">
+  <div className="d-lg-flex">
+    <div className="flex-item-1 ">
       <img src="src/assets/about_pic-removebg-preview (1).png" alt="Image" />
     </div>
     <div className="flex-item-2">
@@ -29,7 +30,7 @@ const About = () => {
 
 
       <br />
-      <div className='card_row'>
+      <div className='d-lg-flex'>
         <Card style={{ width: '23rem' }}>
        
           <Card.Body>
@@ -47,26 +48,24 @@ const About = () => {
           </Card.Body>
         </Card>
 
-        <Card style={{ width: '23rem' }}>
-          <Card.Body>
-         
-          <Card.Title style={{ color: '#333403', fontWeight: 'bold', fontSize: '1.5rem' }}>Education</Card.Title>
-          <Card.Text  style={{ color: '#333403',  }}>
-                        ROSEBANK COLLEGE <br />Higher Certificate in support system 2017-2018 <br /> <br /> Bachelor of Information Technology In Business Systems (BIT)<br /> 2018-2020 <br /><br />
-                        UNISA <br /> Honours Information Science<br /> 2021 - Present
-                        </Card.Text>
-
-          </Card.Body>
-        </Card>
-
-        <Card style={{ width: '23rem' }}>
-          <Card.Body>
-          <Card.Title style={{ color: '#333403', fontWeight: 'bold', fontSize: '1.5rem' }}>Experience</Card.Title>
-            <Card.Text  style={{ color: '#333403' }}>
-                   ROSEBANK COLLEGE - Junior IT Support Tech <br /> 2018-2020 <br /> <br /> WESTPACK LIFESTYLE - Information Admin Clerk<br /> 2022-2023 <br /> <br /> YOUNGLINGS (ABSA) - Junior Software Developer <br /> Jan 2023 - Present
+        <Card className="custom-card" style={{ width: '23rem' }}>
+      <Card.Body>
+            <Card.Title className="card-title">Education</Card.Title>
+            <Card.Text className="card-text">
+              ROSEBANK COLLEGE <br />Higher Certificate in support system 2017-2018 <br /> <br /> Bachelor of Information Technology In Business Systems (BIT)<br /> 2018-2020 <br /><br />
+              UNISA <br /> Honours Information Science<br /> 2021 - Present
             </Card.Text>
           </Card.Body>
-        </Card>
+    </Card>   
+
+    <Card className="custom-card" style={{ width: '23rem' }}>
+      <Card.Body>
+        <Card.Title className="card-title">Experience</Card.Title>
+        <Card.Text className="card-text">
+          ROSEBANK COLLEGE - Junior IT Support Tech <br /> 2018-2020 <br /> <br /> WESTPACK LIFESTYLE - Information Admin Clerk<br /> 2022-2023 <br /> <br /> YOUNGLINGS (ABSA) - Junior Software Developer <br /> Jan 2023 - Present
+        </Card.Text>
+      </Card.Body>
+    </Card>
       </div>
     </div>
   );
