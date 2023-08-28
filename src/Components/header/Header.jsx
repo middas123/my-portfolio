@@ -13,7 +13,8 @@ function Header() {
         <nav className="navbar">
             <a className="navbar-brand" href="#home">Welcome to my portfolio</a>
         </nav>
-
+        </Container>
+        <Container>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="m-s auto">

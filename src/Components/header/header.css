@@ -10,10 +10,11 @@
   .nav-link {
     font-size: 0.8rem;
     font-weight: 1000;
-    color: #555; /* You can change this color */
-    margin-right: 10px;
+    margin-left: 0px;
+    padding: 10px;
     text-transform: uppercase;
     transition: color 0.3s ease;
+    
   }
   
   .nav-link:hover {
