@@ -36,12 +36,7 @@
     background-color: #007bff; /* You can change this color */
     color: #fff; /* You can change this color */
   }
-  /* Add this CSS code to your stylesheets */
-
-/* header.css */
-
-/* header.css */
-
+ 
 /* Apply the pop and color change effects to the nav links on hover */
 .navbar-nav .nav-link {
   transition: transform 0.3s ease-in-out, color 0.3s ease-in-out; /* Add transitions for both transform and color */
@@ -49,13 +44,13 @@
 
 .navbar-nav .nav-link:hover {
   transform: scale(1.1); /* Scale up the element by 10% on hover */
-  color: red; /* Change the color on hover */
 }
 
 
 .Navbar a:hover {
   transform: scale(1.1);
 }
+
 
   
   /* Responsive styles */
