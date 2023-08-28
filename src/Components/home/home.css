@@ -5,7 +5,7 @@
 } */
 .jumbotron {
 
-  background-color: grey;
+  background-color: rgb(218, 214, 214);
   color: #fff;
   border-radius: 30px;
   min-height: 70vh;
@@ -14,6 +14,7 @@
  /* Add space between text and image */
 
 }
+
 
 
 .profile-image-container {
