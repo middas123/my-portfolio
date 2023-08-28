@@ -94,9 +94,12 @@ const Contact = () => {
               <br />
               <Row>
                 <Col lg="12" className="form-group">
-                  <button className="btn ac_btn" type="submit">Submit</button>
-                </Col>
-              </Row>
+                     <button className="btn ac_btn" type="submit">
+                      Submit Message 😀 
+                   </button>
+               </Col>
+             </Row>
+
             </form>
          </Col>
        </Row>

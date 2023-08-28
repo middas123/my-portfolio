@@ -21,7 +21,7 @@ body{
 
 .btn {
     color: #333403;
-    border: 3px solid #bb126f;
+    border: 3px solid #91888d;
 
 } 
 .btn:hover  {
@@ -44,6 +44,7 @@ a.button-link {
   a.button-link:hover {
     background-color: #0056b3; /* Button background color on hover */
   }
+  
   
 /* Contact.css */
 
