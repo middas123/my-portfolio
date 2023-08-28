@@ -1,4 +1,8 @@
-/* Base styles */
+/* Ba*se styles */
+
+/* * {
+  border-style: solid;
+} */
 .jumbotron {
 
   background-color: grey;
@@ -19,12 +23,6 @@
   margin: 100px;
 }
 
-.profile-image {
-  width: 300px;
-  height: 350px;
-  border-radius: 10%;
-  margin-top: 55px;
-}
 
 .jumbotron .lead {
   text-align: center;
@@ -33,7 +31,7 @@
 /* Styling for the connect container */
 .connect {
   text-align: center;
-  margin-top: -88px;
+ 
 }
 
 /* Styling for the connect button */

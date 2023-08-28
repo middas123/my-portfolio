@@ -34,12 +34,12 @@ const Home = () => {
 
   return (
     <div className="jumbotron mt-5" id="home">
-      <div className="content-container d-lg-flex">
+      <div className="content-container text-center d-lg-flex">
        
-          <Image src={profileImageUrl} className='rounded  col-4 m-auto' fluid />
+          <Image src={profileImageUrl} className='rounded col-6 col-lg-4 m-auto ' fluid />
           {/* <img src={profileImageUrl} alt="Profile" className="profile-image figure-img img-fluid rounded" /><br /> */}
       
-        <div className="text-container col-6 mx-5">
+        <div className=" col-10 col-lg-6  mx-5">
           <h1 className="display-4" style={{ color: 'black' }}>HI! I am <strong>Middas</strong></h1>
           <p className="lead">
             <span className="typed-text"></span>
