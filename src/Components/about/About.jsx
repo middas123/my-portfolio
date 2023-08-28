@@ -43,6 +43,7 @@ const About = () => {
           <Card.Img className="infinite-flip-image" variant="top" src="src/assets/icons8-java-48.png" alt="Card Image" />
           <Card.Img className="infinite-flip-image" variant="top" src="src/assets/icons8-python-48.png" alt="Card Image" />
           <Card.Img className="infinite-flip-image" variant="top" src="src/assets/icons8-figma-100.png" alt="Card Image" />
+          <Card.Img className="infinite-flip-image" variant="top" src="src/assets/icons8-firebase-48.png" alt="Card Image" />
 
 
           </Card.Body>
