@@ -3,7 +3,8 @@ import './services.css';
 
 function services() {
   return (
-    <div>
+    <div className="projects-heading" id='services'>
+      <br />
       <h2>Projects</h2>
       < br />
       <div id="carouselExampleCaptions" className="carousel slide" data-ride="carousel">
@@ -47,7 +48,7 @@ function services() {
           <a href="https://github.com/middas123/MPS-WEBSITE-PROJECT" className="carousel-link">
             <img src="src/assets/mzam.png" className="d-block w-100" alt="image" />
             <div className="carousel-caption d-none d-md-block">
-              <h5> school Website</h5>
+              <h5> School Website</h5>
               <p>School Website Using Html, css and javascript</p>
             </div>
           </a>
