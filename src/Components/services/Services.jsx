@@ -1,75 +1,79 @@
 
-import "./services.css";
+import './services.css';
 
-const projects = [
-  {
-    title: "School Website",
-    link: "https://github.com/middas123/MPS-WEBSITE-PROJECT",
-    image: "src/assets/mzam.png",
-  },
-  {
-    title: "Sars Text Calc",
-    link: "https://github.com/middas123/tax-calculator",
-    image: "src/assets/sars.jpg",
-  },
-  {
-    title: "Snake Game",
-    link: "https://github.com/middas123/snake-game",
-    image: "src/assets/snake game.png",
-  },
-  {
-    title: "Pass Generator",
-    link: "https://github.com/middas123/Password-Generator",
-    image: "src/assets/pass gen.jpg",
-  },
-  {
-    title: "Portfolio Of Evidence",
-    link: "https://github.com/middas123/Online-Portfolio-",
-    image: "src/assets/about_pic-removebg-preview (1).png",
-  },
-];
-
-const Services = () => {
+function services() {
   return (
-    <div className="services-container" id="services">
-      <div className="centered-content">
-        <h1 className="services-heading">Projects and Services</h1>
-      </div>
-      <div className="projects-divider"></div> {/* Vertical Line Divider */}
-      <div className="projects">
-        <div className="left-projects">
-          {projects.slice(0, 3).map((project, index) => (
-            <div className="project-card" key={index}>
-              <a href={project.link} target="_blank" rel="noopener noreferrer">
-                <img src={project.image} alt={project.title} className="project-image" />
-              </a>
-              <h2 className="project-title">{project.title}</h2>
-              <p className="project-description">
-                <a href={project.link} target="_blank" rel="noopener noreferrer">
-                  {project.title}
-                </a>
-              </p>
+    <div>
+      <h2>Projects</h2>
+      < br />
+      <div id="carouselExampleCaptions" className="carousel slide" data-ride="carousel">
+        <ol className="carousel-indicators">
+          <li data-target="#carouselExampleCaptions" data-slide-to="0" className="active"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="4"></li>
+        </ol>
+        <div className="carousel-inner">
+          <div className="carousel-item active">
+          <a href="https://github.com/middas123/Online-Portfolio-" className="carousel-link">
+
+            <img src="src/assets/IMG_0330.jpeg" className="d-block w-100" alt="image" />
+            <div className="carousel-caption d-none d-md-block">
+              <h5>Porfolio Website</h5>
+              <p>Website Portfolio Using Html, css and javascript</p>
             </div>
-          ))}
-        </div>
-        <div className="right-projects">
-          {projects.slice(3).map((project, index) => (
-            <div className="project-card" key={index}>
-              <a href={project.link} target="_blank" rel="noopener noreferrer">
-                <img src={project.image} alt={project.title} className="project-image" />
-              </a>
-              <h2 className="project-title">{project.title}</h2>
-              <p className="project-description">
-                <a href={project.link} target="_blank" rel="noopener noreferrer">
-                  {project.title}
-                </a>
-              </p>
+          </a>
+          </div>
+          <div className="carousel-item">
+          <a href="https://github.com/middas123/tax-calculator"className="carousel-link">
+            <img src="src/assets/sars.jpg" className="d-block w-100" alt="image" />
+            <div className="carousel-caption d-none d-md-block">
+              <h5>Sars Text Calc</h5>
+              <p>Sars Tax Calculator using Java</p>
             </div>
-          ))}
+            </a>
+          </div>
+          <div className="carousel-item">
+          <a href="https://github.com/middas123/snake-game"className="carousel-link">
+            <img src="src/assets/snake game.png" className="d-block w-100" alt="image" />
+            <div className="carousel-caption d-none d-md-block">
+              <h5>Snake Game</h5>
+              <p>Snake Game using ReactNative with NodeJs as backEnd</p>
+            </div>
+          </a>
+          </div>
+          <div className="carousel-item">
+          <a href="https://github.com/middas123/MPS-WEBSITE-PROJECT" className="carousel-link">
+            <img src="src/assets/mzam.png" className="d-block w-100" alt="image" />
+            <div className="carousel-caption d-none d-md-block">
+              <h5> school Website</h5>
+              <p>School Website Using Html, css and javascript</p>
+            </div>
+          </a>
+          </div>
+          <div className="carousel-item">
+          <a href="https://github.com/middas123/Password-Generator" className="carousel-link">
+            <img src="src/assets/pass gen.jpg" className="d-block w-100" alt="image" />
+            <div className="carousel-caption d-none d-md-block">
+              <h5>Password Gen</h5>
+              <p>Password Generator using Python and Anaconda</p>
+            </div>
+          </a>
+          </div>
+          
         </div>
+        <button className="carousel-control-prev" type="button" data-target="#carouselExampleCaptions" data-slide="prev">
+          <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span className="sr-only">Previous</span>
+        </button>
+        <button className="carousel-control-next" type="button" data-target="#carouselExampleCaptions" data-slide="next">
+          <span className="carousel-control-next-icon" aria-hidden="true"></span>
+          <span className="sr-only">Next</span>
+        </button>
       </div>
     </div>
   );
-};
+}
 
-export default Services;
+export default services;
