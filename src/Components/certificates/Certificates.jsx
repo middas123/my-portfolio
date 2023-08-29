@@ -4,6 +4,7 @@ import "./Certificates.css";
 const Certificates = () => {
   return (
     <div className="certificates-wrapper" id='certificates'>
+      <br />
       <div className="certificates-heading">
         <h2><strong>Certificates</strong></h2>
         <h />
