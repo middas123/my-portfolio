@@ -8,6 +8,7 @@ import Services from './Components/services/Services'
 import Certificates from './Components/certificates/Certificates'
 import Contact from './Components/contact/Contact'
 import Footer from './Components/footer/footer';
+import Carousel from './Components/carousel/carousel';
 function App() {
   // const [count, setCount] = useState(0)
 
@@ -20,6 +21,7 @@ function App() {
       <Certificates />
       <Contact />
       <Footer />
+      <Carousel />
 
     </div>
   )
