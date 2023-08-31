@@ -5,6 +5,7 @@ import { collection, addDoc } from 'firebase/firestore/lite';
 import { initializeApp } from 'firebase/app';
 import { getAnalytics } from 'firebase/analytics';
 import { getFirestore } from 'firebase/firestore/lite';
+import emailjs from "emailjs-com";
 import './Contact.css';
 
 // Your web app's Firebase configuration
@@ -55,7 +56,17 @@ const Contact = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    try {
+    
+      try {
+        // Send email using emailjs
+        await emailjs.sendForm (
+          "service_9my0rso",
+          "template_irq94z1",
+          e.target,
+          "QVi-OGP9K42h2ZXtr"
+        );
+        e.target.reset();
+
       await addDoc(collection(db, 'Messages'), { 
         name,
         surname,
@@ -72,7 +83,7 @@ const Contact = () => {
       setMessage('');
 
       // Optionally, you can show a success message or redirect the user
-      console.log('Form data sent to Firebase!');
+      console.log('Form data sent to Firebase and email sent with emailjs!');
     } catch (error) {
       // Handle errors here (e.g., show an error message)
       console.error('Error sending form data to Firebase:', error);
@@ -117,7 +128,7 @@ const Contact = () => {
                 <input
                   className="form-control"
                   id="name"
-                  name="name"
+                  name="user_name"
                   placeholder="Name"
                   type="text"
                   value={name}
@@ -173,7 +184,7 @@ const Contact = () => {
             <br />
             <Row>
               <Col lg="12" className="form-group">
-                <button className="btn ac_btn" type="submit">
+                <button className="btn ac_btn" >
                   Submit Message 😀
                 </button>
               </Col>
