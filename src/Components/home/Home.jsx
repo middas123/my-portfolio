@@ -15,7 +15,7 @@ const Home = () => {
       backDelay: 1000,
       loop: true,
       onStringTyped: (arrayPos, self) => {
-        const colors = ['#24220f', '#28a745', '#000000'];
+        const colors = ['#24220f', '#849c7f', '#210dd8'];
         // const typedStrings = self.strings;
         const typedTextElement = document.querySelector('.typed-text');
         typedTextElement.style.color = colors[arrayPos % colors.length];
