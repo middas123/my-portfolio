@@ -7,9 +7,9 @@
   
   /* Carousel item images */
   .carousel-inner img {
-    width: 300px;
+    width: 100px;
     height:  500px;
-    border-radius: 10%;
+   
     
   }
   
@@ -35,10 +35,10 @@
   .carousel-control-prev,
   .carousel-control-next {
     width: auto;
-    padding: 15px;
+    padding: 10px;
     background: rgba(0, 0, 0, 0.3);
     color: #d808ab;
-    font-weight: bold;
+    font-weight: bolder;
    
   }
 

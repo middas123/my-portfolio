@@ -55,7 +55,7 @@ function services() {
           </div>
           <div className="carousel-item">
           <a href="https://github.com/middas123/Password-Generator" className="carousel-link">
-            <img src="src/assets/pass gen.jpg" className="d-block w-100" alt="image" />
+            <img src="src/assets/pass gen 1.png" className="d-block w-100" alt="image" />
             <div className="carousel-caption d-none d-md-block">
               <h5>Password Gen</h5>
               <p>Password Generator using Python and Anaconda</p>
