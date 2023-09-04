@@ -35,12 +35,12 @@ const About = () => {
        
           <Card.Body>
           <Card.Title style={{ color: '#333403', fontWeight: 'bold', fontSize: '1.5rem' }}>Skills</Card.Title>
-          <Card.Img className="infinite-flip-image" variant="top" src="src/assets/icons8-html-48.png" alt="Card Image" />
-          <Card.Img className="infinite-flip-image" variant="top" src="src/assets/icons8-css-48.png" alt="Card Image" />
-          <Card.Img className="infinite-flip-image" variant="top" src="src/assets/icons8-javascript-64.png" alt="Card Image" />
-          <Card.Img className="infinite-flip-image" variant="top" src="src/assets/icons8-react-50.png" alt="Card Image" />
-          <Card.Img className="infinite-flip-image" variant="top" src="src/assets/icons8-nodejs-48.png" alt="Card Image" />
-          <Card.Img className="infinite-flip-image" variant="top" src="src/assets/icons8-java-48.png" alt="Card Image" />
+          <Card.Img className="infinite-flip-image" variant="top" src="https://i.ibb.co/HPkCfzs/icons8-html-48.png" alt="icons8-html-48" />
+          <Card.Img className="infinite-flip-image" variant="top" src="https://i.ibb.co/zZdgVKZ/icons8-css-48.png" alt="icons8-css-48" />
+          <Card.Img className="infinite-flip-image" variant="top" src="https://i.ibb.co/cNRR5Q8/icons8-javascript-64.png" alt="icons8-javascript-64" />
+          <Card.Img className="infinite-flip-image" variant="top" src="https://i.ibb.co/ykfH6vV/icons8-react-50.png" alt="icons8-react-50" />
+          <Card.Img className="infinite-flip-image" variant="top" src="https://i.ibb.co/HhJR044/icons8-nodejs-48.png" alt="icons8-nodejs-48" />
+          <Card.Img className="infinite-flip-image" variant="top" src="https://i.ibb.co/hRMr1d6/icons8-java-48.png" alt="icons8-java-48" />
           <Card.Img className="infinite-flip-image" variant="top" src="src/assets/icons8-python-48.png" alt="Card Image" />
           <Card.Img className="infinite-flip-image" variant="top" src="src/assets/icons8-figma-100.png" alt="Card Image" />
           <Card.Img className="infinite-flip-image" variant="top" src="src/assets/icons8-firebase-48.png" alt="Card Image" />
