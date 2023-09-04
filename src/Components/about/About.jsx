@@ -13,7 +13,7 @@ const About = () => {
 </div>
   <div className="d-lg-flex">
     <div className="flex-item-1 ">
-      <img src="src/assets/about_pic-removebg-preview (1).png" alt="Image" />
+      <img src="https://i.ibb.co/6ZrYZyR/about-pic-removebg-preview.png" alt="about-pic-removebg-preview" />
     </div>
     <div className="flex-item-2">
        <strong> Middas is an enthusiastic junior Frontend React developer who is passionate 
@@ -41,9 +41,9 @@ const About = () => {
           <Card.Img className="infinite-flip-image" variant="top" src="https://i.ibb.co/ykfH6vV/icons8-react-50.png" alt="icons8-react-50" />
           <Card.Img className="infinite-flip-image" variant="top" src="https://i.ibb.co/HhJR044/icons8-nodejs-48.png" alt="icons8-nodejs-48" />
           <Card.Img className="infinite-flip-image" variant="top" src="https://i.ibb.co/hRMr1d6/icons8-java-48.png" alt="icons8-java-48" />
-          <Card.Img className="infinite-flip-image" variant="top" src="src/assets/icons8-python-48.png" alt="Card Image" />
-          <Card.Img className="infinite-flip-image" variant="top" src="src/assets/icons8-figma-100.png" alt="Card Image" />
-          <Card.Img className="infinite-flip-image" variant="top" src="src/assets/icons8-firebase-48.png" alt="Card Image" />
+          <Card.Img className="infinite-flip-image" variant="top" src="https://i.ibb.co/PZcXR0T/icons8-python-48.png" alt="icons8-python-48" />
+          <Card.Img className="infinite-flip-image" variant="top" src="https://i.ibb.co/XXqF116/icons8-figma-100.png" alt="icons8-figma-100" />
+          <Card.Img className="infinite-flip-image" variant="top" src="https://i.ibb.co/cbLD8pP/icons8-firebase-48.png" alt="icons8-firebase-48" />
 
 
           </Card.Body>
