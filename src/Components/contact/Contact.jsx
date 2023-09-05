@@ -226,6 +226,7 @@ const Contact = () => {
               sitekey="6LedTf8nAAAAAL6PpJT1mJCxw7FNNW4Jvej9ioK2"
               onChange={handleRecaptchaChange}
             />
+            <br />
             <Row>
               <Col lg="12" className="form-group">
                 <button className="btn ac_btn">
