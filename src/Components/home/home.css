@@ -126,3 +126,18 @@
 .border{
   border: #210dd8;
 }
+
+/* Define your dark mode styles here */
+.dark-mode {
+  background-color: #333; /* Dark background color */
+  color: #fff; /* Light text color */
+  cursor: pointer;
+}
+
+/* Define your light mode styles here */
+.light-mode {
+  background-color: #fff; /* Light background color */
+  color: #333; /* Dark text color */
+  cursor: pointer;
+}
+
