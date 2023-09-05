@@ -61,7 +61,7 @@ function services() {
           <div className="carousel-item">
           <a href="https://github.com/middas123/MPS-WEBSITE-PROJECT" className="carousel-link">
           <div className="carousel-image-container">
-            <img src="https://i.ibb.co/zVDB2Br/mzam.png" className="d-block w-100" alt="mzam" border="0"></img>
+            <img src="https://i.ibb.co/J2QxfXf/Mzamomtsha.png" className="d-block w-100" alt="Mzamomtsha" border="0"></img>
           </div>
             <div className="carousel-caption d-none d-md-block">
               <h5> School Website</h5>
