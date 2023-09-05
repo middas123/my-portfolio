@@ -14,6 +14,18 @@
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
   <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
   <!-- End of Font Awesome CSS link -->
+
+  <!-- Include the reCAPTCHA script -->
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+  <script>
+      // This is a callback function that will be executed when reCAPTCHA is verified
+      function recaptchaCallback(response) {
+          // 'response' contains the reCAPTCHA response value
+          var recaptchaValue = response;
+          console.log("reCAPTCHA Response: " + recaptchaValue);
+      }
+  </script>
 </head>
 <body>
   <div id="root"></div>
