@@ -141,3 +141,10 @@
   cursor: pointer;
 }
 
+@media (min-width: 768px) {
+  /* Adjust layout for medium and larger screens */
+  .jumbotron {
+    min-height: 80vh; /* Increase the height for larger screens */
+  }
+}
+
