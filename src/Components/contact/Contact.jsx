@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import ReCAPTCHA from "react-google-recaptcha";
 import { Row, Col } from 'react-bootstrap';
 import { contactConfig } from './content_option';
 import { collection, addDoc } from 'firebase/firestore/lite';
@@ -63,10 +64,17 @@ const Contact = () => {
     setMessage(e.target.value);
   };
 
+  const handleRecaptchaChange = (value) => {
+    setRecaptchaValue(value);
+  };
+
   const handleSubmit = async (e) => {
     e.preventDefault();
-    let isValid = true; 
 
+    // if (!recaptchaValue) {
+    //   setShowAlert(true);
+    //   return;
+    // }
     // Validation logic
     try {
       await schema.validate({
@@ -214,6 +222,10 @@ const Contact = () => {
               onChange={handleMessageChange}
             ></textarea>
             <br />
+            <ReCAPTCHA
+              sitekey="6LedTf8nAAAAAL6PpJT1mJCxw7FNNW4Jvej9ioK2"
+              onChange={handleRecaptchaChange}
+            />
             <Row>
               <Col lg="12" className="form-group">
                 <button className="btn ac_btn">
