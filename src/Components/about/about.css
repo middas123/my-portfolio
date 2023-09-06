@@ -171,6 +171,15 @@ div.flex-item-1 img {
   }
 }
 
+@media (max-width: 767.98px) {
+  .container h2 {
+    font-size: 1.2rem;
+  }
+  .flex-item-2 {
+    text-align: left;
+    margin-bottom: 0; /* Remove margin to eliminate gaps */
+  }
+}
 /* Styles for screens smaller than medium (md) */
 @media (max-width: 767.98px) {
   .container h2 {
