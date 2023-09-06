@@ -71,12 +71,11 @@ const Contact = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    // if (!recaptchaValue) {
-    //   setShowAlert(true);
-    //   return;
-    // }
-    // Validation logic
+    // Initialize isValid to true
+    let isValid = true;
+
     try {
+      // Use yup validation
       await schema.validate({
         name,
         surname,
@@ -85,20 +84,21 @@ const Contact = () => {
         message,
       });
 
+      // Additional validation
       if (!name || !surname || !email || !number || !message) {
-        isValid = true;
+        isValid = false;
       }
-  
+
       if (!/^\d{10}$/.test(number)) {
-        isValid = true;
+        isValid = false;
       }
-  
+
       if (!isValid) {
         setShowAlert(true);
         return;
       }
-  
 
+      // Send the email using emailjs
       await emailjs.sendForm(
         "service_9my0rso",
         "template_irq94z1",
@@ -106,6 +106,7 @@ const Contact = () => {
         "QVi-OGP9K42h2ZXtr"
       );
 
+      // Add data to Firestore
       await addDoc(collection(db, 'Messages'), {
         name,
         surname,
@@ -114,13 +115,15 @@ const Contact = () => {
         message,
       });
 
+      // Clear input fields
       setName('');
       setSurname('');
       setEmail('');
       setNumber('');
       setMessage('');
 
-      setShowAlert(false); // Hide the alert on successful submission
+      // Hide the alert on successful submission
+      setShowAlert(false);
 
       console.log('Form data sent to Firebase and email sent with emailjs!');
     } catch (error) {
@@ -143,12 +146,12 @@ const Contact = () => {
             </strong>
             <br />
             <br />
-            <strong style={{ color: 'darkblue' }}><i className="fas fa-phone"> </i> <br />  Phone:+27 79 604 6479</strong>
+            <strong style={{ color: 'darkblue' }}><i className="fas fa-phone"> </i> <br />  Phone:+123 456 7890</strong>
             <br />
             <br />
             <strong style={{ color: 'darkblue' }}>
               <i className="fas fa-map-marker-alt"></i>  <br />
-              Location: <a href="https://www.google.com/search?q=lower+long+street%2C+foreshore%2C+cape+town&rlz=1C1CHBD_enZA1067ZA1067&oq=lower&gs_lcrp=EgZjaHJvbWUqBggAEEUYOzIGCAAQRRg7MgYIARBFGDkyCQgCEAAYQxiKBTIJCAMQLhhDGIoFMgwIBBAAGEMYsQMYigUyDAgFEAAYQxixAxiKBTIGCAYQRRg8MgYIBxBFGDzSAQgxNDQ3ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8" style={{ color: 'blue' }}>
+              Location: <a href="https://www.google.com/maps?q=your-location" style={{ color: 'blue' }}>
                 View on Map
               </a>
             </strong>
@@ -223,7 +226,7 @@ const Contact = () => {
             ></textarea>
             <br />
             <ReCAPTCHA
-              sitekey="6LedTf8nAAAAAL6PpJT1mJCxw7FNNW4Jvej9ioK2"
+              sitekey="6LdX8wIoAAAAAIuSnsXX_k7Wf8b_HFr5jmu-IyGE"
               onChange={handleRecaptchaChange}
             />
             <br />
