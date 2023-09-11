@@ -5,7 +5,7 @@ function services() {
   return (
     <div className="projects-heading" id='services'>
       <br />
-      <h2>Projects</h2>
+      <h1><strong>Projects</strong></h1>
       < br />
       <div id="carouselExampleCaptions" className="carousel slide" data-ride="carousel">
         <ol className="carousel-indicators">
@@ -20,10 +20,10 @@ function services() {
           <a href="https://github.com/middas123/Online-Portfolio-" className="carousel-link">
           <div className="carousel-image-container">
           <img
-           src="https://i.ibb.co/tDR8Fqz/about-pic-removebg-preview-1.png"
-            className="d-block w-100"
-             alt="about-pic-removebg-preview-1"
-            />
+                  src="https://i.ibb.co/tDR8Fqz/about-pic-removebg-preview-1.png"
+                  className="img-fluid"
+                  alt="about-pic-removebg-preview-1"
+                />
           </div>
 
             <div className="carousel-caption d-none d-md-block">

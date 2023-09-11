@@ -60,6 +60,23 @@
     opacity: 1; /* Show caption on hover */
   }
   
+  /* services.css */
+
+/* Style the carousel images */
+.carousel-image-container {
+  width: 100%; /* Ensure the container takes the full width of the carousel */
+  height: 100%; /* Ensure the container takes the full height of the carousel */
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+}
+
+.carousel-image-container img {
+  min-width: 100%; /* Ensure the image fills the container width */
+  min-height: 100%; /* Ensure the image fills the container height */
+  object-fit: cover; /* Scale the image to cover the entire container */
+}
+
   
 
   
