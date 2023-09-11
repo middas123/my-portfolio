@@ -4,6 +4,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 // import NavDropdown from 'react-bootstrap/NavDropdown';
+<br />
 
 function Header() {
   return (
@@ -11,7 +12,7 @@ function Header() {
       <Navbar expand="lg" className="bg-body-tertiary fixed-top">
         <Container>
         <nav className="navbar">
-            <a className="navbar-brand" href="#home">Welcome to my portfolio</a>
+            <a className="navbar-brand" href="#home"><strong>Welcome to my portfolio</strong></a>
         </nav>
         </Container>
         <Container>
