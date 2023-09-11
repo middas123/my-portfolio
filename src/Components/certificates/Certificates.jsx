@@ -5,8 +5,9 @@ const Certificates = () => {
   return (
     <div className="certificates-wrapper" id='certificates'>
       <br />
+      <br />
       <div className="certificates-heading">
-        <h2><strong>Certificates</strong></h2>
+        <h1><strong>Certificates</strong></h1>
         <h />
         <div className="vertical-line"></div>
       </div>
