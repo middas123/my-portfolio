@@ -140,18 +140,18 @@ const Contact = () => {
         <Col lg="5" className="mb-5">
           <h3 className="color_sec py-4"> Get in touch</h3>
           <address>
-            <strong style={{ color: 'darkblue' }}>
+            <strong style={{ color: '#007bff' }}>
               <i className="fas fa-envelope"></i> <br />
-              Email: <a href="mailto:middasmokobane08@gmail.com" style={{ color: 'darkblue' }}>middasmokobane08@gmail.com</a>
+              Email: <a href="mailto:middasmokobane08@gmail.com" style={{ color: '#007bff' }}>middasmokobane08@gmail.com</a>
             </strong>
             <br />
             <br />
-            <strong style={{ color: 'darkblue' }}><i className="fas fa-phone"> </i> <br />  Phone:+123 456 7890</strong>
+            <strong style={{ color: '#007bff' }}><i className="fas fa-phone"> </i> <br />  Phone:+27 79 604 6475</strong>
             <br />
             <br />
-            <strong style={{ color: 'darkblue' }}>
+            <strong style={{ color: '#007bff' }}>
               <i className="fas fa-map-marker-alt"></i>  <br />
-              Location: <a href="https://www.google.com/maps?q=your-location" style={{ color: 'blue' }}>
+              Location: <a href="https://www.google.com/maps?q=your-location" style={{ color: '#007bff' }}>
                 View on Map
               </a>
             </strong>
@@ -205,7 +205,7 @@ const Contact = () => {
                   className="form-control rounded-0"
                   id="number"
                   name="number"
-                  placeholder="Area Code + Number"
+                  placeholder="Number"
                   type="number"
                   pattern="\d{10}"
                   title="Please enter a 10-digit number"
