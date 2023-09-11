@@ -60,6 +60,8 @@ div.container {
 /* Styling for the 'About' section heading */
 div.container h2 {
   font-weight: bold;
+ 
+
 }
 
 /* Styling for the flex container */
@@ -180,18 +182,17 @@ div.flex-item-1 img {
     margin-bottom: 0; /* Remove margin to eliminate gaps */
   }
 }
+@media (min-width: 992px) {
+  .container h2 {
+    text-align: left;
+    margin-bottom: 0;
+  }
 /* Styles for screens smaller than medium (md) */
 @media (max-width: 767.98px) {
   .container h2 {
     font-size: 1.2rem;
   }
 }
-/* Adjust text alignment and remove gaps for flex-item-2 on smaller screens */
-@media (max-width: 991.98px) {
-  .flex-item-2 {
-    text-align: left;
-    margin-bottom: 0; /* Remove margin to eliminate gaps */
-  }
 }
 
 /* Add more media queries as needed for different screen sizes */

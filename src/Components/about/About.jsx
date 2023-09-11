@@ -9,11 +9,12 @@ const About = () => {
     <div className='card_container' id='about'>
 
 <div className="container">
-  <h2>About</h2>
+  <h1 className="mt-5"><strong>About</strong></h1>
 </div>
+  <br /> <br />
   <div className="d-lg-flex">
     <div className="flex-item-1 ">
-      <img src="https://i.ibb.co/6ZrYZyR/about-pic-removebg-preview.png" alt="about-pic-removebg-preview" />
+      <img src="https://i.ibb.co/SPYmmhq/second-pic-removebg-preview.png" alt="about-pic-removebg-preview" />
     </div>
     <div className="flex-item-2">
        <strong> Middas is an enthusiastic junior Frontend React developer who is passionate 
