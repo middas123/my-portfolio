@@ -32,7 +32,7 @@ const Home = () => {
     };
   }, []);
 
-  // Function to toggle dark mode 
+  // Function to toggle dark mode
   const toggleDarkMode = () => {
     const newMode = !darkMode;
     setDarkMode(newMode);
@@ -48,9 +48,10 @@ const Home = () => {
   return (
     <div className={`jumbotron mt-5 ${darkMode ? 'dark-mode' : 'light-mode'}`} id="home">
       <div className="content-container text-center d-lg-flex">
-        <Image src={profileImageUrl} className='rounded col-6 col-lg-4 m-auto' fluid />
+       
+       <Image src={profileImageUrl} className='rounded col-6 col-lg-4 m-auto gold' fluid />
         <div className=" col-10 col-lg-6  mx-5">
-          <h1 className="display-4" style={{ color: 'black' }}>HI! I'm <strong>Middas</strong></h1>
+          <h1 className="display-4 pizza" style={{ color: 'black' }}>HI! I am <strong>Middas</strong></h1>
           <p className="lead">
             <span className="typed-text"></span>
           </p>
