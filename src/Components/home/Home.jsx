@@ -51,7 +51,7 @@ const Home = () => {
        
        <Image src={profileImageUrl} className='rounded col-6 col-lg-4 m-auto gold' fluid />
         <div className=" col-10 col-lg-6  mx-5">
-          <h1 className="display-4 pizza" style={{ color: 'black' }}>HI! I am <strong>Middas</strong></h1>
+          <h1 className="display-4 pizza" style={{ color: 'black' }}>HI! I'm <strong>Middas</strong></h1>
           <p className="lead">
             <span className="typed-text"></span>
           </p>
