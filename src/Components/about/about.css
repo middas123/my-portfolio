@@ -146,9 +146,17 @@ div.flex-item-1 img {
   filter: blur(5px); /* Apply initial blur effect */
 }
 
-.custom-card:hover .card-title,
-.custom-card:hover .card-text {
+.card2:hover .card-title,
+.card2:hover .card-text {
   filter: blur(0); /* Remove blur effect on hover */
+}
+.card3:hover .card-text {
+  filter: blur(0); /* Remove blur effect on hover */
+}
+
+/* cards */
+.card1, .card2, .card3{
+  width:23rem;
 }
  /* Responsive styles */
   
@@ -156,6 +164,11 @@ div.flex-item-1 img {
   .card-columns {
     grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
   }
+  .card1, .card2, .card3{
+    width: 100%;
+    height: auto;
+  }
+
 }
 /* Default styles for large screens and above */
 .card_container {
