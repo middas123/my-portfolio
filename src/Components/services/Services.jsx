@@ -17,7 +17,7 @@ function services() {
         </ol>
         <div className="carousel-inner">
           <div className="carousel-item active">
-          <a href="https://github.com/middas123/Online-Portfolio-" className="carousel-link">
+          <a href="https://github.com/middas123/my-portfolio" className="carousel-link">
           <div className="carousel-image-container">
           <img
                   src="https://i.ibb.co/tDR8Fqz/about-pic-removebg-preview-1.png"
