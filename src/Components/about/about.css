@@ -168,6 +168,11 @@ div.flex-item-1 img {
     width: 100%;
     height: auto;
   }
+  .card {
+    --bs-card-spacer-y: initial; /* Reset the property to its initial value */
+    /* Add other styles for the .card class here */
+}
+
 
 }
 /* Default styles for large screens and above */
