@@ -72,7 +72,7 @@ const Certificates = () => {
               <br />
               <h5 className="card-title">AWS certified Architect Solution</h5>
               <br />
-              <p>specializes in designing and implementing solutions on the Amazon Web Services (AWS) platform. </p>
+              <p>specializes in designing and implementing solutions on the (AWS) platform. </p>
               <a href="src/assets/AWS Certified Solutions Architect.pdf" className="btn btn-primary" target="_blank" rel="noopener noreferrer">View Certificate</a>
               <footer className="blockquote-footer">
               </footer>
