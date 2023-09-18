@@ -50,7 +50,7 @@ function services() {
           <div className="carousel-item">
           <a href="https://github.com/middas123/snake-game"className="carousel-link">
           <div className="carousel-image-container">
-            <img src="https://i.ibb.co/2gKJw71/snake-game.png" className="d-block w-100" alt="snake-game"border="0"></img>
+            <img src="src/assets/snake game 2.jpg" className="d-block w-100" alt="snake-game"border="0"></img>
           </div>
             <div className="carousel-caption d-none d-md-block">
               <h5>Snake Game</h5>
@@ -83,13 +83,14 @@ function services() {
           
         </div>
         <button className="carousel-control-prev" type="button" data-target="#carouselExampleCaptions" data-slide="prev">
-          <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span className="sr-only">Previous</span>
-        </button>
-        <button className="carousel-control-next" type="button" data-target="#carouselExampleCaptions" data-slide="next">
-          <span className="carousel-control-next-icon" aria-hidden="true"></span>
-          <span className="sr-only">Next</span>
-        </button>
+  <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+  <span className="sr-only">Previous</span>
+</button>
+<button className="carousel-control-next" type="button" data-target="#carouselExampleCaptions" data-slide="next">
+  <span className="carousel-control-next-icon" aria-hidden="true"></span>
+  <span className="sr-only">Next</span>
+</button>
+
       </div>
     </div>
   );
