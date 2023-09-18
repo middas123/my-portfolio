@@ -9,9 +9,7 @@
   .carousel-inner img {
     width: 100px;
     height:  500px;
-    
-   
-    
+ 
   }
   
   /* Carousel caption */
@@ -77,10 +75,6 @@
   object-fit: cover; /* Scale the image to cover the entire container */
 }
 
-  
-
-  
-  
   
   /* .carousel-control-prev:hover,
   .carousel-control-next:hover {
