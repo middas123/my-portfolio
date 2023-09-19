@@ -36,9 +36,9 @@ function services() {
             <a href="https://github.com/middas123/tax-calculator" className="carousel-link">
               <div className="carousel-image-container">
                 <img 
-                src="https://i.ibb.co/NrV8ZQW/sars.jpg" 
-                className="d-block w-100"
-                 alt="sars" />
+                    src="https://i.ibb.co/NrV8ZQW/sars.jpg" 
+                    className="d-block w-100"
+                    alt="sars" />
               </div>
               <div className="carousel-caption d-none d-md-block">
                 <h5>Sars Text Calc</h5>
@@ -50,7 +50,11 @@ function services() {
           <div className="carousel-item">
           <a href="https://github.com/middas123/snake-game"className="carousel-link">
           <div className="carousel-image-container">
-            <img src="src/assets/snake game 2.jpg" className="d-block w-100" alt="snake-game"border="0"></img>
+                <img 
+                src="src/assets/snake game 2.jpg"
+                className="d-block w-100" 
+                alt="snake-game"border="0">
+                </img>
           </div>
             <div className="carousel-caption d-none d-md-block">
               <h5>Snake Game</h5>
@@ -61,7 +65,11 @@ function services() {
           <div className="carousel-item">
           <a href="https://github.com/middas123/MPS-WEBSITE-PROJECT" className="carousel-link">
           <div className="carousel-image-container">
-            <img src="https://i.ibb.co/J2QxfXf/Mzamomtsha.png" className="d-block w-100" alt="Mzamomtsha" border="0"></img>
+                <img 
+                src="https://i.ibb.co/J2QxfXf/Mzamomtsha.png" 
+                className="d-block w-100" 
+                alt="Mzamomtsha" border="0">
+                </img>
           </div>
             <div className="carousel-caption d-none d-md-block">
               <h5> School Website</h5>
@@ -72,7 +80,11 @@ function services() {
           <div className="carousel-item">
           <a href="https://github.com/middas123/Password-Generator" className="carousel-link">
           <div className="carousel-image-container">
-            <img src="https://i.ibb.co/Qd7xF7J/pass-gen-1.png" className="d-block w-100" alt="pass-gen-1" border="0"></img>
+                <img 
+                src="https://i.ibb.co/Qd7xF7J/pass-gen-1.png"
+                className="d-block w-100" 
+                alt="pass-gen-1" border="0">
+                </img>
           </div>
             <div className="carousel-caption d-none d-md-block">
               <h5>Password Gen</h5>
