@@ -9,6 +9,7 @@ import { getFirestore } from 'firebase/firestore/lite';
 import emailjs from "emailjs-com";
 import * as yup from 'yup';
 import './Contact.css';
+<br /> 
 
 const firebaseConfig = {
   apiKey: "AIzaSyCk0dyrNHhxZGWARpB1TdoQhxHAwQXBtDU",
@@ -142,16 +143,16 @@ const Contact = () => {
           <address>
             <strong style={{ color: '#007bff' }}>
               <i className="fas fa-envelope"></i> <br />
-              Email: <a href="mailto:middasmokobane08@gmail.com" style={{ color: '#007bff' }}>middasmokobane08@gmail.com</a>
+               <a href="mailto:middasmokobane08@gmail.com" style={{ color: '#007bff' }}>middasmokobane08@gmail.com</a>
             </strong>
             <br />
             <br />
-            <strong style={{ color: '#007bff' }}><i className="fas fa-phone"> </i> <br />  Phone:+27 79 604 6475</strong>
+            <strong style={{ color: '#007bff' }}><i className="fas fa-phone"> </i> <br /> +27 79 604 6475</strong>
             <br />
             <br />
             <strong style={{ color: '#007bff' }}>
-              <i className="fas fa-map-marker-alt"></i>  <br />
-              Location: <a href="https://www.google.com/maps?q=your-location" style={{ color: '#007bff' }}>
+              <i className="fas fa-map-marker-alt"></i>  
+              <br /> <a href="https://www.google.com/maps?q=your-location" style={{ color: '#007bff' }}>
                 View on Map
               </a>
             </strong>
