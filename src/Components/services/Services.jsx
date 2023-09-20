@@ -51,7 +51,7 @@ function services() {
           <a href="https://github.com/middas123/snake-game"className="carousel-link">
           <div className="carousel-image-container">
                 <img 
-                src="src/assets/snake game 2.jpg"
+                src="https://i.ibb.co/v4M9kTf/snake-game-2.jpg" 
                 className="d-block w-100" 
                 alt="snake-game"border="0">
                 </img>
