@@ -6,9 +6,9 @@ const About = () => {
   return (
     <div className='card_container' id='about'>
       <div className="container">
-        <h1 className="mt-5"><strong>About</strong></h1>
+        <h1 className="mt-5"><strong>About Me</strong></h1>
       </div>
-      <br /> <br />
+      <br /> 
       <div className="d-lg-flex">
         <div className="flex-item-1">
           <img src="https://i.ibb.co/SPYmmhq/second-pic-removebg-preview.png" alt="about-pic-removebg-preview" />
