@@ -10,7 +10,7 @@ const Home = () => {
 
   useEffect(() => {
     const options = {
-      strings: ['<strong>FrontEnd React Software Developer, UI/UX Designer</strong>', '<strong>IT Business Analyst</strong>', '<strong>IT Support Technician</strong>'],
+      strings: ['<strong>FrontEnd React Software Dev</strong>', '<strong> UI/UX Designer</strong>', '<strong>IT Business Analyst</strong>', '<strong>IT Support Technician</strong>'],
       typeSpeed: 80,
       backSpeed: 20,
       backDelay: 1000,
@@ -50,8 +50,8 @@ const Home = () => {
       <div className="content-container text-center d-lg-flex">
        
        <Image src={profileImageUrl} className='rounded col-6 col-lg-4 m-auto gold' fluid />
-        <div className=" col-10 col-lg-6  mx-5">
-          <h1 className="display-4 pizza" style={{ color: 'black' }}>HI! I'm <strong>Middas</strong></h1>
+        <div className=" col-10 col-lg-4  mx-5">
+          <h1 className="display-6 pizza" style={{ color: 'black' }}>HI! I'm <strong>Middas</strong></h1>
           <p className="lead">
             <span className="typed-text"></span>
           </p>
@@ -62,8 +62,8 @@ const Home = () => {
             <strong>Download Resume</strong>
           </a>
           <div className=''>
-            <div className="connect-button m-5">
-              <a href="#contact">Lets Connect</a>
+            <div className="connect-button m-4">
+              <a href="#contact">Let's Connect</a>
             </div>
           </div>
           {/* Sun emoji for dark mode toggle */}
