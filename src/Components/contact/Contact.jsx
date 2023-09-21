@@ -117,9 +117,10 @@ const Contact = () => {
 
   return (
     <div className="Container" id="contact">
-      <h1>
-        <strong>Contact</strong>
+      <h1 className="text-center">
+         <strong>Contact Me</strong>
       </h1>
+      <br />
       <Row className="sec_sp">
         <Col lg="5" className="mb-5">
           <h3 className="color_sec py-4"> Get in touch</h3>
