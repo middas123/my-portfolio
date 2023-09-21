@@ -49,8 +49,8 @@ const Home = () => {
     <div className={`jumbotron mt-5 ${darkMode ? 'dark-mode' : 'light-mode'}`} id="home">
       <div className="content-container text-center d-lg-flex">
        
-       <Image src={profileImageUrl} className='rounded col-6 col-lg-4 m-auto gold' fluid />
-        <div className=" col-10 col-lg-4  mx-5">
+      <Image src={profileImageUrl} className='rounded col-12 col-lg-4 m-auto gold' fluid />
+       <div className="col-12 col-lg-4 mx-2 mx-lg-5">
           <h1 className="display-6 pizza" style={{ color: 'black' }}>HI! I'm <strong>Middas</strong></h1>
           <p className="lead">
             <span className="typed-text"></span>
@@ -58,9 +58,10 @@ const Home = () => {
           <p>
             <strong>Highly motivated &amp; Skilled, Please feel free to Look into my Resume</strong>
           </p>
-          <a className="btn btn-primary btn-lg" href="src/assets/Beige Modern Digital Interface Professional Developer CV Resume.pdf" role="button">
-            <strong>Download Resume</strong>
+          <a className="btn btn-primary btn-lg" href="https://drive.google.com/file/d/1au4R5EK9HtxgfvYVdYCylFNF4XY7FV3h/view?usp=sharing" role="button">
+               <strong>Download Resume</strong>
           </a>
+
           <div className=''>
             <div className="connect-button m-4">
               <a href="#contact">Let's Connect</a>

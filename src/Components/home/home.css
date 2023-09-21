@@ -147,6 +147,14 @@
     min-height: 80vh; /* Increase the height for larger screens */
   }
 }
+@media (max-width: 768px) {
+  .content-container {
+    flex-direction: column; /* Stack elements vertically on smaller screens */
+    text-align: center;
+  }
+  /* Adjust other styles as needed */
+}
+
 
 
 
