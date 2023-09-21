@@ -9,7 +9,6 @@ import { getFirestore } from 'firebase/firestore/lite';
 import emailjs from "emailjs-com";
 import * as yup from 'yup';
 import './Contact.css';
-<br /> 
 
 const firebaseConfig = {
   apiKey: "AIzaSyCk0dyrNHhxZGWARpB1TdoQhxHAwQXBtDU",
@@ -72,9 +71,6 @@ const Contact = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    // Initialize isValid to true
-    let isValid = true;
-
     try {
       // Use yup validation
       await schema.validate({
@@ -84,20 +80,6 @@ const Contact = () => {
         number,
         message,
       });
-
-      // Additional validation
-      if (!name || !surname || !email || !number || !message) {
-        isValid = false;
-      }
-
-      if (!/^\d{10}$/.test(number)) {
-        isValid = false;
-      }
-
-      if (!isValid) {
-        setShowAlert(true);
-        return;
-      }
 
       // Send the email using emailjs
       await emailjs.sendForm(
@@ -129,6 +111,7 @@ const Contact = () => {
       console.log('Form data sent to Firebase and email sent with emailjs!');
     } catch (error) {
       console.error('Validation error:', error.message);
+      setShowAlert(true);
     }
   };
 
@@ -164,7 +147,7 @@ const Contact = () => {
           <form className="contact_form w-100" onSubmit={handleSubmit}>
             {showAlert && (
               <div className="alert alert-danger">
-                Fill in all fields and make sure your phone number is valid.
+                Fill in all fields and make sure your phone number and email is valid.
               </div>
             )}
             <Row>
@@ -172,7 +155,7 @@ const Contact = () => {
                 <input
                   className="form-control"
                   id="name"
-                  name="user_name"
+                  name="name"
                   placeholder="Name"
                   type="text"
                   value={name}
@@ -207,7 +190,7 @@ const Contact = () => {
                   id="number"
                   name="number"
                   placeholder="Number"
-                  type="number"
+                  type="text"
                   pattern="\d{10}"
                   title="Please enter a 10-digit number"
                   maxLength="12"
@@ -226,10 +209,14 @@ const Contact = () => {
               onChange={handleMessageChange}
             ></textarea>
             <br />
-            <ReCAPTCHA
-              sitekey="6LdX8wIoAAAAAIuSnsXX_k7Wf8b_HFr5jmu-IyGE"
-              onChange={handleRecaptchaChange}
-            />
+            
+               <div className="text-left">
+                  <ReCAPTCHA
+                    sitekey="6LdX8wIoAAAAAIuSnsXX_k7Wf8b_HFr5jmu-IyGE"
+                    onChange={handleRecaptchaChange}
+                  />
+               </div>
+          
             <br />
             <Row>
               <Col lg="12" className="form-group">

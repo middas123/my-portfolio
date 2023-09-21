@@ -87,3 +87,16 @@ i.fas {
 .grecaptcha-badge {
   display: none; /* Hide the reCAPTCHA badge */
 }
+
+
+/* Media query for screens smaller than 768px
+@media (max-width: 768px) {
+ 
+  }
+
+/* Media query for screens smaller than 576px */
+/* @media (max-width: 576px) {
+  .g-recaptcha {
+    min-height: 80vh;
+  }
+}  */
