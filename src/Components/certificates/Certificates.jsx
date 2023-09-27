@@ -18,7 +18,7 @@ const Certificates = () => {
             <h5 className="card-title">AWS Cloud Practitioner</h5>
             <br />
             <p>It covers key concept & basic terms of AWS, Giving In-depth Understanding, It is designed for individuals who want to demonstrate their skill</p>
-            <a href="src/assets/aws cloud prac.pdf" className="btn btn-primary" target="_blank" rel="noopener noreferrer">View Certificate</a>
+            <a href="https://drive.google.com/file/d/1Mz4_UEjXz6-dbSFXl3kCdMbvls1vPjRg/view?usp=drive_link" className="btn btn-primary" target="_blank" rel="noopener noreferrer">View Certificate</a>
             <footer className="blockquote-footer">
             </footer>
           </div>
@@ -29,7 +29,7 @@ const Certificates = () => {
             <h5 className="card-title">AWS DevOps</h5>
             <br />
             <p>Covers a range of topics, including continuous integration, continuous delivery, automation, infrastructure, & continuous integration</p>
-            <a href="src/assets/DevOpss.pdf" className="btn btn-primary" target="_blank" rel="noopener noreferrer">View Certificate</a>
+            <a href="https://drive.google.com/file/d/1hHzQgOP2SJHSV4Pf_iuhAr5rjCFoHEy6/view?usp=drive_link" className="btn btn-primary" target="_blank" rel="noopener noreferrer">View Certificate</a>
             <footer className="blockquote-footer">
             </footer>
           </div>
@@ -40,7 +40,7 @@ const Certificates = () => {
             <h5 className="card-title">IBM Cyber Security</h5>
             <br />
             <p>It covers a wide range of topics related to protecting digital assets, networks & information systems from cyber threats and attacks.</p>
-            <a href="src/assets/cybersecurity.pdf" className="btn btn-primary" target="_blank" rel="noopener noreferrer">View Certificate</a>
+            <a href="https://drive.google.com/file/d/1JDqAKDMD4CKmBeniCBwanWf8JNPFiDGB/view?usp=drive_link" className="btn btn-primary" target="_blank" rel="noopener noreferrer">View Certificate</a>
             <footer className="blockquote-footer">
             </footer>
           </div>
@@ -51,7 +51,7 @@ const Certificates = () => {
             <h5 className="card-title">AWS Technical Essentials</h5>
             <br />
             <p>It covers essential concepts, terminology, and key services offered by AWS on coursera</p>
-            <a href="src/assets/aws technical assen.pdf" className="btn btn-primary" target="_blank" rel="noopener noreferrer">View Certificate</a>
+            <a href="https://drive.google.com/file/d/1qRzuPjjkALkIS5m4scnuDD6UHvqhskN5/view?usp=drive_link" className="btn btn-primary" target="_blank" rel="noopener noreferrer">View Certificate</a>
             <footer className="blockquote-footer">
             </footer>
           </div>
@@ -62,7 +62,7 @@ const Certificates = () => {
               <h5 className="card-title">Figma Design</h5>
               <br />
               <p>The Figma Design course provides instruction on how to effectively use Figma</p>
-              <a href="src/assets/Figma.pdf" className="btn btn-primary" target="_blank" rel="noopener noreferrer">View Certificate</a>
+              <a href="https://drive.google.com/file/d/1yBUo_SjpS1RA87KHRVGErwQlNKCq3AAK/view?usp=drive_link" className="btn btn-primary" target="_blank" rel="noopener noreferrer">View Certificate</a>
               <footer className="blockquote-footer">
               </footer>
             </div>
@@ -73,7 +73,7 @@ const Certificates = () => {
               <h5 className="card-title">AWS certified Architect Solution</h5>
               <br />
               <p>specializes in designing and implementing solutions on the (AWS) platform. </p>
-              <a href="src/assets/AWS Certified Solutions Architect.pdf" className="btn btn-primary" target="_blank" rel="noopener noreferrer">View Certificate</a>
+              <a href="https://drive.google.com/file/d/1411j4RBoHO6lELWZC_6W29b0q-OQb1JC/view?usp=drive_link" className="btn btn-primary" target="_blank" rel="noopener noreferrer">View Certificate</a>
               <footer className="blockquote-footer">
               </footer>
             </div>
